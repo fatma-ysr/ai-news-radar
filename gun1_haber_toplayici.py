@@ -18,6 +18,9 @@ import feedparser          # RSS beslemelerini okuyan kutuphane
 import json                # Veriyi dosyaya kaydetmek icin
 import time                # Tarih hesaplamalari icin
 from datetime import datetime, timedelta
+import requests
+
+
 
 # ---------------------------------------------------------------
 # 1) KAYNAK LISTESI
@@ -25,11 +28,7 @@ from datetime import datetime, timedelta
 # Yeni kaynak eklemek istersen buraya bir satir eklemen yeterli.
 # ---------------------------------------------------------------
 KAYNAKLAR = [
-    ("Hacker News (AI aramasi)",
-     "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&points=100"),
-    # hnrss.org: Hacker News'in resmi olmayan ama cok kullanilan RSS servisi.
-    # points=100 -> en az 100 oy almis (yani gercekten onemli) haberler.
-
+   
     ("arXiv - Makine Ogrenmesi (cs.LG)",
      "https://rss.arxiv.org/rss/cs.LG"),
 
@@ -44,6 +43,18 @@ KAYNAKLAR = [
 
     ("TechCrunch AI",
      "https://techcrunch.com/category/artificial-intelligence/feed/"),
+
+     ("arXiv - Istatistik ML (stat.ML)",
+     "https://rss.arxiv.org/rss/stat.ML"),
+
+    ("The Verge AI",
+     "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
+
+    ("MIT Technology Review (AI)",
+     "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
+
+    ("Google News (AI)",
+     "https://news.google.com/rss/search?q=artificial+intelligence&hl=tr&gl=TR&ceid=TR:tr"),
 ]
 
 # Kac gunluk haber toplansin?
@@ -125,6 +136,45 @@ def tekrarlari_ayikla(haberler):
 
     return temiz
 
+def hacker_news_tara(en_eski_tarih):
+    """
+    Hacker News'i resmi Algolia API'sinden ceker (RSS degil, JSON API).
+    Son 7 gunde 100+ puan almis, AI/LLM/GPT gecen hikayeler.
+    """
+    print("  Taraniyor: Hacker News (Algolia API) ...", end=" ")
+
+    epoch = int(en_eski_tarih.timestamp())  # API tarihi sayi olarak ister
+    adres = "https://hn.algolia.com/api/v1/search"
+    parametreler = {
+        "query": "AI OR LLM OR GPT",
+        "tags": "story",
+        "numericFilters": f"created_at_i>{epoch}",
+        "hitsPerPage": 50,
+    }
+
+    try:
+        cevap = requests.get(adres, params=parametreler, timeout=15)
+        cevap.raise_for_status()          # 200 degilse hata firlat
+        sonuc = cevap.json()              # JSON cevabi Python sozlugune cevir
+    except Exception as hata:
+        print(f"HATA - {hata}")
+        return []
+
+    haberler = []
+    for hikaye in sonuc.get("hits", []):
+        for hikaye in sonuc.get("hits", []):
+         if hikaye.get("points", 0) < 100:
+            continue  # dusuk puanli hikayeleri biz eliyoruz (API filtrelemiyor)
+        haberler.append({
+            "baslik":   hikaye.get("title", "(basliksiz)").strip(),
+            "link":     hikaye.get("url") or f"https://news.ycombinator.com/item?id={hikaye.get('objectID')}",
+            "kaynak":   "Hacker News",
+            "tarih":    hikaye.get("created_at", "")[:10],
+            "aciklama": f"HN puani: {hikaye.get('points', 0)}",
+        })
+    haberler = haberler[:KAYNAK_BASINA_LIMIT]    
+    print(f"{len(haberler)} haber bulundu.")
+    return haberler
 
 def main():
     print("=" * 60)
@@ -133,6 +183,7 @@ def main():
 
     en_eski_tarih = datetime.now() - timedelta(days=GUN_SAYISI)
     tum_haberler = []
+    tum_haberler.extend(hacker_news_tara(en_eski_tarih))
 
     for kaynak_adi, rss_adresi in KAYNAKLAR:
         tum_haberler.extend(kaynagi_tara(kaynak_adi, rss_adresi, en_eski_tarih))

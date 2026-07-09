@@ -1,0 +1,646 @@
+[
+  {
+    "baslik": "TriRoute: Unified Learned Routing for Joint Adaptive Attention, Experts, and KV-Cache Allocation",
+    "link": "https://arxiv.org/abs/2607.06601",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06601v1 Announce Type: new \nAbstract: Conditional computation can decouple language model quality from per-token inference cost, yet leading techniques act on a single axis in isolation: Mixture-of-Experts (MoE) sparsifies the FFN, Mixture-of-Depths (MoD) skips whole transformer blocks, and KV-cache quantization compresses attention memory. We argue these three decisions (attention resolution, expert selection, and cache bit-width) are strongly coupled and should be made jointly: a to"
+  },
+  {
+    "baslik": "A Quiet Failure in Calibrated Virtual Screening: Marginal Conformal Prediction Under-Covers the Minority Class, and a Class-Conditional Fix Recovers It",
+    "link": "https://arxiv.org/abs/2607.06605",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06605v1 Announce Type: new \nAbstract: Conformal prediction is being adopted in drug discovery to put an honest number on model reliability: pick an error rate alpha, and the method returns prediction sets containing the true label with probability at least 1 - alpha. We show this guarantee can be dangerous on imbalanced datasets. Across four datasets, standard (marginal) conformal prediction hits its global 90% coverage target while leaving the minority class badly exposed: realized m"
+  },
+  {
+    "baslik": "NEST: Tackling Dataset-Level Distribution Shifts via Regime-Oriented Mixture-of-Experts",
+    "link": "https://arxiv.org/abs/2607.06607",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06607v1 Announce Type: new \nAbstract: Accurate long-term forecasting in complex systems is frequently compromised by dataset-level distribution shifts, where diverse underlying behavioral modes and evolving system states drive the dynamic multivariate time-series. While existing methods predominantly focus on local temporal shifts, they fail to explicitly model the global structural challenge where datasets are composites of distinct operational regimes. In this paper, we propose NEST"
+  },
+  {
+    "baslik": "D2PO: Optimizing Diffusion Samplers via Dynamic Preference",
+    "link": "https://arxiv.org/abs/2607.06609",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06609v1 Announce Type: new \nAbstract: We propose D2PO (Dynamic Direct Preference Optimization), a principled framework for optimizing diffusion sampling policies with respect to timestep schedules and classifier-free guidance (CFG) weights. Our work is motivated by a fundamental limitation of existing student-teacher regression frameworks; low-NFE student samplers are trained to mimic high-NFEteachers, often sacrificing high-frequency texture fidelity while preserving coarse global st"
+  },
+  {
+    "baslik": "Deep Reinforcement Learning for Reliability Based Bi-Objective Portfolio Optimization",
+    "link": "https://arxiv.org/abs/2607.06610",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06610v1 Announce Type: new \nAbstract: Portfolio optimization under uncertainty is inherently a multi-objective decision problem involving complex interactions among return, risk, market dynamics, and practical investment constraints. Existing reliability based portfolio optimization approaches primarily rely on static optimization frameworks and often fail to capture sequential decision making, tail risk, and market frictions such as transaction costs. To address these limitations, we"
+  },
+  {
+    "baslik": "STAGformer: A Spatio-temporal Agent Graph Transformer for Micro Mobility Demand Forecasting",
+    "link": "https://arxiv.org/abs/2607.06614",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06614v1 Announce Type: new \nAbstract: Accurate station-level demand forecasting is essential for the efficient operation of bike-sharing systems, yet it remains challenging due to complex spatio-temporal dependencies and the large scale of urban networks. This paper presents STAGformer, a Spatio-Temporal Agent Graph Transformer that achieves efficient global modeling with linear computational complexity. The model introduces a two-step agent attention mechanism, where a small set of l"
+  },
+  {
+    "baslik": "WHERE to Generate Matters: Budget-Aware Synthetic Augmentation for Label Skewed Federated Learning",
+    "link": "https://arxiv.org/abs/2607.06616",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06616v1 Announce Type: new \nAbstract: Label skew in federated learning (FL) causes client drift and degrades global accuracy. Synthetic data augmentation can reduce this imbalance; however, full class balancing requires substantial computation cost. We propose FedEAS, a policy that assigns each client an entropy-adaptive per-class generation budget computed from its local label distribution. The budget jointly decides \\emph{how much} each client generates and \\emph{WHERE} the samples "
+  },
+  {
+    "baslik": "Inertia-1: An Open Exploration of Wearable Motion Foundation Models",
+    "link": "https://arxiv.org/abs/2607.06617",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06617v1 Announce Type: new \nAbstract: Wearable motion sensing provides a continuous and scalable window into human behavior and health, making it a natural fit for foundation models, yet its pretraining and scaling principles remain poorly understood. Prior work studies isolated design choices, such as sensor placement or sampling frequency, often under fixed settings and narrow downstream tasks that fail to capture real-world sensing diversity. We introduce Inertia-1, a fully open ex"
+  },
+  {
+    "baslik": "Fingerprint, Not Blueprint: How Positional Schemes Set the Default Spectral Algebra of Attention",
+    "link": "https://arxiv.org/abs/2607.06621",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06621v1 Announce Type: new \nAbstract: The pre-softmax score of an attention head is a bilinear form $score(i,j) = x_i^T M x_j$ in a learned operator $M = W_q^T W_k$. Because M is generally non-symmetric, hence non-normal, it has a complex eigenspectrum and non-orthogonal eigenvectors, the regime where non-Hermitian and random-matrix tools apply. We ask what this spectrum encodes, at three levels for previous-token and induction circuits. Statically, across seven pretrained models span"
+  },
+  {
+    "baslik": "LLM-Guided Task-Semantic Field Factorization for Industrial Process Forecasting",
+    "link": "https://arxiv.org/abs/2607.06623",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06623v1 Announce Type: new \nAbstract: Process industries rely on time-series forecasting and soft sensing to estimate quality variables that are hard to measure online. Labeled data are scarce, operating regimes change frequently, and retraining models or rebuilding alignment pipelines for each scenario is costly. Such settings often provide variable tables and process documents that record variable names, units, physical meanings, and process roles. However, standard time-series back"
+  },
+  {
+    "baslik": "Open-Ended Scenario Reasoning for Specialist Model Adaptation",
+    "link": "https://arxiv.org/abs/2607.06625",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06625v1 Announce Type: new \nAbstract: Process industries have accumulated validated specialist models, yet sensor drift, feedstock variation, and regime switching cause these models to degrade systematically in new scenarios. Collecting new labeled data and retraining is costly, while continuing with the original model incurs persistent bias. Existing adaptation methods require modifying model parameters with sufficient labeled data, making rapid response on deployed systems difficult"
+  },
+  {
+    "baslik": "Reward Valuation in Vision Language Models: Causal Mechanisms Underlying Anhedonia",
+    "link": "https://arxiv.org/abs/2607.06626",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06626v1 Announce Type: new \nAbstract: Recent Vision-Language Models capture increasingly complex aspects of human cognition. Here we ask whether this alignment extends to reward valuation, which we assess in a mechanistic framework built on clinical tests that were developed to evaluate anhedonia and motivational deficits in major depressive disorder. In the brain, anhedonia is frequently linked to dysregulation in the Nucleus Accumbens (NAc) and the broader dopaminergic reward system"
+  },
+  {
+    "baslik": "Cross-Trajectory Chimera Interventions Reveal Dissociable Roles of Weight Magnitude and Direction in Grokking",
+    "link": "https://arxiv.org/abs/2607.06628",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06628v1 Announce Type: new \nAbstract: Which properties of a partially trained network are causally portable to a different, independently trained network? Single-trajectory interventions show necessity within one run, not portability across runs. We introduce cross-trajectory chimera interventions: given two runs from different seeds, we split each weight vector into a norm and a unit direction, recombine one run's norm with the other's direction, and continue training. On two modular"
+  },
+  {
+    "baslik": "STST-JEPA: Shallow-Target Spatio-Temporal Joint Embedding Prediction Architecture For EEG Self-Supervised Learning",
+    "link": "https://arxiv.org/abs/2607.06629",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06629v1 Announce Type: new \nAbstract: Brain age -- the age inferred from a physiological recording -- is an emerging biomarker whose deviation from chronological age tracks neurological and psychiatric burden, and EEG is an attractive substrate for it because it is cheap, portable, and temporally rich. Yet EEG brain-age models must contend with cross-site montage heterogeneity, small labelled cohorts, and dominant subject-level non-stationarity, and few EEG foundation models have been"
+  },
+  {
+    "baslik": "When Certificates Fail: A Unified Safety Framework for Embedded Neural Interface Models",
+    "link": "https://arxiv.org/abs/2607.06630",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06630v1 Announce Type: new \nAbstract: Formal robustness certificates for embedded neural-interface models can pass while task accuracy collapses: at perturbation budget e=0.25, EEGNet classification accuracy drops by 25.7% under projected-gradient attack while the Lipschitz-style certificate remains valid for all 9 tested subjects. We argue that this gap between mathematical certification and operational safety is one instance of a broader alignment failure in neural interfaces, where"
+  },
+  {
+    "baslik": "Audio Sentiment Analysis via Distillation and Cross-Modal Integration of Generated Multilingual Transcripts",
+    "link": "https://arxiv.org/abs/2607.06611",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06611v1 Announce Type: new \nAbstract: Automatically recognizing the sentiment, positive or negative, from speech is a challenging task, requiring both the analysis of vocal inflections and the interpretation of uttered words. Recent solutions rely on audio foundation models to solve the task, but it remains unclear if such models can take all aspects into account. To this end, we propose a multimodal solution that integrates audio and text information via cross-modal transformers, whe"
+  },
+  {
+    "baslik": "Healthier LLMs: Retrieval-Augmented Generation for Public Health Question Answering",
+    "link": "https://arxiv.org/abs/2607.06641",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06641v1 Announce Type: new \nAbstract: Large language models (LLMs) achieve promising results on medical question answering benchmarks, yet their use in public health is constrained by hallucinations and the rapid evolution of official guidance. Retrieval-Augmented Generation (RAG) mitigates these risks by grounding responses in an explicitly maintained corpus, but end-to-end performance depends critically on retrieval configuration and on evaluation beyond multiple-choice formats. We "
+  },
+  {
+    "baslik": "Ad Headline Generation using Self-Critical Masked Language Model",
+    "link": "https://arxiv.org/abs/2607.06818",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06818v1 Announce Type: new \nAbstract: For any E-commerce website it is a nontrivial problem to build enduring advertisements that attract shoppers. It is hard to pass the creative quality bar of the website, especially at a large scale. We thus propose a programmatic solution to generate product advertising headlines using retail content. We propose a state of the art application of Reinforcement Learning (RL) Policy gradient methods on Transformer based Masked Language Models. Our me"
+  },
+  {
+    "baslik": "Gradient-Based Speech-to-Text Alignment for Any ASR Model: From CTC to Speech LLMs",
+    "link": "https://arxiv.org/abs/2607.06831",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06831v1 Announce Type: new \nAbstract: Speech-to-text alignment means finding the temporal boundaries of each word in the audio. Some models provide such an alignment directly and others do not. Connectionist temporal classification (CTC) and transducer models have an alignment by construction, whereas attention-based encoder-decoders (AED) and speech large language models (LLMs) do not, and their word timings are usually read off the attention weights instead. All of these signals liv"
+  },
+  {
+    "baslik": "LLMs Silently Correct African American English: Auditing and Mitigating Dialect Bias via Activation Steering",
+    "link": "https://arxiv.org/abs/2607.06845",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06845v1 Announce Type: new \nAbstract: African American English (AAE), a rule-governed dialect spoken by over 30 million people, is routinely misinterpreted and \"corrected\" by large language models (LLMs). Across six instruction-tuned LLMs (14B to 70B), we show that state-of-the-art models systematically prefer Standard American English (SAE) continuations even when the preceding context is in AAE, effectively rewriting AAE into SAE. We present an end-to-end framework to audit and miti"
+  },
+  {
+    "baslik": "Comprehensive Evaluation of Large Language Model Responses: A Multi-Factor Scoring System",
+    "link": "https://arxiv.org/abs/2607.06940",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06940v1 Announce Type: new \nAbstract: The remarkable performance of large language models (LLMs) in linguistic tasks underscores an urgent need for comprehensive evaluation of their response quality. Prevailing methods, often confined to singular dimensions, fall short of capturing the full spectrum of model capabilities. This study introduces a multifactor scoring paradigm, integrating accuracy, conciseness, factual consistency, readability, and coherence, complemented by a graphical"
+  },
+  {
+    "baslik": "MILES: Modular Instruction Memory with Learnable Selection for Self-Improving LLM Reasoning",
+    "link": "https://arxiv.org/abs/2607.06974",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06974v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly improve their reasoning at test time via additional computation, yet most existing works treat each problem in isolation. When problems arrive sequentially, accumulating reusable experience across them can further improve performance. Existing memory-based methods either store whole-solution templates that generalize poorly to novel problems or use heuristic step-level selection that is not optimized for f"
+  },
+  {
+    "baslik": "Riemannian Geometry for Pre-trained Language Model Embeddings",
+    "link": "https://arxiv.org/abs/2607.07047",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07047v1 Announce Type: new \nAbstract: Understanding the geometric structure of pre-trained language model embeddings matters for interpretability and safety. We ask whether sentence-level classification signal lives in the Riemannian geometry of contextual token embeddings, and probe it by extracting per-token pullback metrics from a learned encoder's analytical Jacobian and aggregating them with the Fr\\'echet mean on the symmetric positive definite (SPD) manifold; we call this proced"
+  },
+  {
+    "baslik": "Behavior Leverage Imbalance in Multi-Teacher On-Policy Distillation",
+    "link": "https://arxiv.org/abs/2607.07050",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07050v1 Announce Type: new \nAbstract: Agentic language models must learn when to call tools, when to consume tool responses, and when to answer directly. This makes multi-teacher on-policy distillation a natural training strategy: one teacher can specialize in tool calls, another in direct responses, and the student can learn from both on\n  its own generated distribution. We show that this strategy can induce a behavior shift that is invisible from aggregate losses alone. In a two-tea"
+  },
+  {
+    "baslik": "From Text to Parameters: Predicting Item Parameters from Embedding Regularization with Reliability and Design Ceilings",
+    "link": "https://arxiv.org/abs/2607.07141",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07141v1 Announce Type: new \nAbstract: Newly developed items must ordinarily be field tested before their psychometric properties are known, creating a cold start problem for item calibration. Predicting item parameters from features is a long standing measurement problem dating back to the Linear Logistic Test Model; modern text embeddings now automate the design matrices traditionally specified by hand. We propose an evaluation framework combining regularized regression on item text "
+  },
+  {
+    "baslik": "Evaluation of Multilingual Ability to Use Spatial Deictic Expressions in Vision-Language Models",
+    "link": "https://arxiv.org/abs/2607.07251",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07251v1 Announce Type: new \nAbstract: One of the expected abilities of vision-language models (VLMs) is spatial reasoning ability based on a given text and image. To evaluate the spatial reasoning abilities of VLMs, we focus on the use of spatial deictic expressions, which are defined as spatial expressions whose referent is determined by their situational context, such as ``this'' and ``that''. To handle spatial deictic expressions, VLMs must jointly reason over language and visual s"
+  },
+  {
+    "baslik": "Understanding Interpretation Difficulty in Harmful Online Communication: Insights from Cybercrime Communities",
+    "link": "https://arxiv.org/abs/2607.07277",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07277v1 Announce Type: new \nAbstract: Harmful online communication often contains slang, coded terms, abbreviations, and community-specific expressions, which make messages difficult to interpret. This paper presents an exploratory study of interpretation difficulty in Discord chats related to cybercrime. We construct reference interpretations of purposefully selected difficult messages, which were reviewed by an expert. We then use them to evaluate human and large language model (LLM"
+  },
+  {
+    "baslik": "A Word-Level Digital Reader of the Prasthanatrayi with Sankara's Bhasya: Corpus, Method, and an Open, Offline Reading Aid for the Advaita Vedanta Canon",
+    "link": "https://arxiv.org/abs/2607.07282",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07282v1 Announce Type: new \nAbstract: The Prasthanatrayi -- the ten principal Upanisads, the Brahmasutra, and the Bhagavadgita, with Sankara's commentaries (bhasya) -- is the foundational corpus of Advaita Vedanta. Continuous euphonic combination (sandhi), long compounds (samasa), and dense scholastic prose make it hard to read at the word level: where one word ends, and what each word means grammatically, are both obscured. We present an open, fully offline, word-level digital reader"
+  },
+  {
+    "baslik": "Evaluating RAG Metrics in Applied Contexts: An Experiment, Its Findings and Its Limitations",
+    "link": "https://arxiv.org/abs/2607.07302",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07302v1 Announce Type: new \nAbstract: This paper reports an empirical study evaluating the relevance of several RAG metrics. The experiment is based on a question-answering dataset created by human annotators from business data. The generated responses and retrieved spans of a RAG system are scored using evaluation metrics from four libraries (Ragas, DeepEval, RAGChecker, Opik). These metrics are compared to scores given by two evaluators, as well as to standard metrics such as recall"
+  },
+  {
+    "baslik": "R^3: Advertisement Compliance Rectification via Group-Relative Experience Extractor and Curriculum Reinforcement",
+    "link": "https://arxiv.org/abs/2607.07318",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07318v1 Announce Type: new \nAbstract: Rigorous content moderation is crucial for online advertising but leads to millions of daily rejections. This scale renders manual rectification infeasible, particularly for video advertisements. However, existing safety-driven methods often suffer from aggressive over-editing, which compromises the advertiser's original semantic intent merely to satisfy compliance. In this work, we target the rectification of textual violations in video ads, cove"
+  },
+  {
+    "baslik": "Anthropic’s new Claude feature is quietly selling you on AI",
+    "link": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-09",
+    "aciklama": "Claude’s new Reflect dashboard doesn’t just visualize how you use AI. It also subtly reinforces how much of your daily work now depends on Anthropic’s chatbot."
+  },
+  {
+    "baslik": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
+    "link": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-09",
+    "aciklama": "Three big AI IPOs are set to generate more value than all the U.S. VC-backed exits since 2000."
+  },
+  {
+    "baslik": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
+    "link": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-09",
+    "aciklama": "Benchmark-backed Ollama has amassed 176,000 stars, and nearly 17,000 forks on GitHub by helping developers easily run AI on their PCs."
+  },
+  {
+    "baslik": "Character.AI enters the microdrama arena with its own productions, but there’s a twist",
+    "link": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-09",
+    "aciklama": "In an interesting twist that takes advantage of the company's core product, users can chat with these shows' characters, ask them questions, and even roleplay different storylines."
+  },
+  {
+    "baslik": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund",
+    "link": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-09",
+    "aciklama": "Nilekani remains Fundamentum's anchor investor as the firm expands its leadership team and targets AI and fintech startups in India."
+  },
+  {
+    "baslik": "Value of Information under Imprecise Probabilities: Decision-Rule-Specific Values and Fixed-Measure Envelopes on a Credal Set",
+    "link": "https://arxiv.org/abs/2607.06570",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06570v1 Announce Type: new \nAbstract: Value-of-information (VOI) analysis is usually conducted under a single probability measure. However, in practice, the available evidence often pins the measure down only to a set. Consequently, under a set of probability measures, VOI requires different formulations. First, we explicate a rule-specific VOI that fixes a decision rule for acting under imprecision (such as Gamma-maximin) and measures what the information is worth to a decision maker"
+  },
+  {
+    "baslik": "Fast determinantal sampling on general spaces and diffusion geometry",
+    "link": "https://arxiv.org/abs/2607.06644",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06644v1 Announce Type: new \nAbstract: Determinantal point processes have recently emerged as a kernel-based alternative to standard independent sampling for constructing efficient minibatches, coresets, and other compact representations of large-scale datasets. In particular, sampling mechanisms based on DPPs are believed to demonstrate better approximation properties compared to classical i.i.d. samplers, even at the scale of the exponent. One of the key strengths of DPP based sample"
+  },
+  {
+    "baslik": "Heat-Kernel Entropy Profiles and Geometric Effective Sample Size for Weighted Measures on Manifolds",
+    "link": "https://arxiv.org/abs/2607.06696",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06696v1 Announce Type: new \nAbstract: Weighted empirical measures on compact manifolds arise in importance sampling, particle approximations, posterior summaries, quadrature, and representation learning. Standard weight-only summaries, such as ordinary effective sample size, ignore the geometry of the support. We introduce heat-kernel entropy profiles, a multiscale summary that diffuses weighted atoms by intrinsic heat flow and tracks nonuniformity across scales. For order-two R\\'enyi"
+  },
+  {
+    "baslik": "Tensor Train Diffusion: Leveraging Low-Rank Structures for High-Dimensional Score-Based Sampling",
+    "link": "https://arxiv.org/abs/2607.06841",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06841v1 Announce Type: new \nAbstract: Diffusion models offer a powerful framework for sampling from complex probability densities by learning to reverse a noising process. A common approach involves solving for the time-reversed stochastic differential equation (SDE), which requires the score function of the evolving sample distribution. The logarithm of this distribution's density is governed by a Hamilton-Jacobi-Bellman (HJB) type partial differential equation (PDE). However, curren"
+  },
+  {
+    "baslik": "Finding a stationary point of a stochastic convex problem",
+    "link": "https://arxiv.org/abs/2607.06883",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06883v1 Announce Type: new \nAbstract: We consider the problem of finding stationary points for stochastic convex optimization problems. Rather than surrogates to stationarity, such as a proximity-to-stationarity guarantee or small gradient of the Moreau envelope, we ask for a stronger notion: that the subdifferential of the objective actually contains a small element. This criterion is non-trivial, because subdifferentials of convex functions fail to converge uniformly, even in arbitr"
+  },
+  {
+    "baslik": "Tensorized algorithms and scalable filtering methods for hidden Markov and factorial hidden Markov models",
+    "link": "https://arxiv.org/abs/2607.07008",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07008v1 Announce Type: new \nAbstract: A common method for the representation and analysis of time-series data is the hidden Markov model (HMM), where each observation is associated with a hidden state that evolves over time. However, many real-world systems are influenced by multiple independent factors, which are more naturally represented by factorial hidden Markov models (fHMM), where several hidden Markov chains jointly generate the observed data. Although an fHMM provides a riche"
+  },
+  {
+    "baslik": "DiPhon: Diffusion on Graphons for Scalable Graph Generation",
+    "link": "https://arxiv.org/abs/2607.07232",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07232v1 Announce Type: new \nAbstract: Diffusion models represent a leading paradigm for graph generation, with notable impact in domains such as molecular design. Yet, scaling these models to large graphs remains an open problem. We approach this question in the dense-graph setting through the lens of graphons, the size-agnostic limit objects of dense graph sequences, to study how structural graph statistics behave across node-size scales. This perspective leads to DiPhon, a diffusion"
+  },
+  {
+    "baslik": "Statistical inverse learning and $\\ell^1$-regularization",
+    "link": "https://arxiv.org/abs/2607.07468",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07468v1 Announce Type: new \nAbstract: We study the recovery of sparse functions from finite, noisy, and indirect observations in the framework of statistical inverse learning. The unknown is modeled as an element of $\\ell^1$, and observations are generated through a possibly nonlinear forward operator $A:\\ell^1\\to H$, where $H$ is a vector-valued reproducing kernel Hilbert space. We propose an $\\ell^1$-regularized empirical risk minimizer and develop a theoretical analysis of its stat"
+  },
+  {
+    "baslik": "A Unified Detection Framework for AI-Related Content and Artifacts",
+    "link": "https://arxiv.org/abs/2607.07527",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07527v1 Announce Type: new \nAbstract: Artificial intelligence (AI) is a double-edged sword: while it has achieved remarkable success across a wide range of domains, its deployment also calls for effective oversight and regulation, for which the detection of AI-related content and artifacts is perhaps the most direct and cost-effective approach. To this end, we propose a unified detection framework based on Mahalanobis distance scores (MDS), applicable to several important settings, in"
+  },
+  {
+    "baslik": "From Jumps to Signatures: a Generative Method for Temporal Point Processes",
+    "link": "https://arxiv.org/abs/2607.06652",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06652v1 Announce Type: cross \nAbstract: Rough path signatures are a universal feature map for continuous paths and, via the expected signature, characterise path distributions. These guarantees do not directly extend to cadlag paths of Temporal Point Processes (TPPs), limiting the use of signature methods for event sequences. Furthermore, neural TPP models, including recent generative approaches, optimise per-event objectives with no global sequence-level loss, while evaluation of var"
+  },
+  {
+    "baslik": "Best-Arm Identification with Generative Proxy",
+    "link": "https://arxiv.org/abs/2607.06879",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06879v1 Announce Type: cross \nAbstract: Best-arm identification is a canonical model for data-driven decision-making, but in many applications each reward observation is costly. Motivated by the growing availability of cheap predictions from machine learning and large language models, we study fixed-confidence best-arm identification in which each costly reward pull is paired with a cheap but correlated proxy score. The marginal mean of the proxy can be estimated offline and is treate"
+  },
+  {
+    "baslik": "Transfer Learning for Linear Discriminant Analysis with a Shared Classification Signal",
+    "link": "https://arxiv.org/abs/2607.06936",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.06936v1 Announce Type: cross \nAbstract: This paper studies transfer learning for linear discriminant analysis in high-dimensional two-class classification. We consider one target domain and several source domains, where the mean difference in each domain is decomposed into a deterministic common component and a domain-specific random deviation. The common component represents a shared classification signal across domains, while the random deviation captures domain-specific heterogenei"
+  },
+  {
+    "baslik": "Local large deviations for linear-region growth in random piecewise-linear networks",
+    "link": "https://arxiv.org/abs/2607.07014",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07014v1 Announce Type: cross \nAbstract: We study a random compositional model for the growth of affine regions in deep piecewise-linear networks. The model is generated by i.i.d.\\ perturbations of the symmetric height-one tent map, and the main observable is the number \\(N_n\\) of affine pieces after \\(n\\) layers. We prove the existence of a submultiplicative pressure for \\(N_n\\), yielding exponential upper bounds for both tails of \\(n^{-1}\\log N_n\\). The same argument applies to abstr"
+  },
+  {
+    "baslik": "Gauge-Invariant Learnable Spectral Positional Encodings for Directed Graphs via Hermitian Block Krylov Subspaces",
+    "link": "https://arxiv.org/abs/2607.07032",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-09",
+    "aciklama": "arXiv:2607.07032v1 Announce Type: cross \nAbstract: Spectral positional encodings (PEs) for \\emph{directed} graphs face two obstacles: magnetic Laplacians require an $O(n^3)$ Hermitian eigendecomposition per potential, and their complex eigenvectors are defined only up to unitary gauge, which prior work handles with basis-invariant architectures. We propose learnable spectral PEs of the form $h_\\theta(A_q)\\,R$, where $A_q$ is a normalized magnetic operator, $h_\\theta$ a learnable scalar spectral "
+  },
+  {
+    "baslik": "Meta says its new AI model is ready to compete on coding",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-09",
+    "aciklama": "After reentering the AI race with its first in-house Muse Spark model in April, Meta is now opening up the doors to developers with a new model that can plug into AI coding software with the new Meta Model API. Meta says that Muse Spark 1.1 is a \"step-change\" from the first generation, with improvements [&#8230;]"
+  },
+  {
+    "baslik": "Say hello to Claude Wrapped",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-09",
+    "aciklama": "The popularity of Spotify Wrapped has kicked off a wide range of year-in-review features, on apps from YouTube to Uber - and now, the lookback trend has come to AI. Anthropic on Thursday announced a \"reflect\" feature for its Claude chatbot, allowing users to see an analysis of their usage data over the past month, [&#8230;]"
+  },
+  {
+    "baslik": "Character.AI wants a piece of the microdrama pie",
+    "link": "https://www.theverge.com/entertainment/962897/character-ai-series-microdrama-vertical-video",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-09",
+    "aciklama": "Character.AI's plan to become more than just an LLM-powered chatbot platform is going beyond interactive books, comics, and audio dramas. Today, the company announced the debut of c.ai Series - short-form, episodic videos designed to be watched and interacted with - on your phone. Unlike traditional microdrama services that feature cheaply produced, live-action shows starring [&#8230;]"
+  },
+  {
+    "baslik": "FL Studio 2026 turns its AI chatbot into your assistant engineer",
+    "link": "https://www.theverge.com/tech/963052/fl-studio-2026-music-daw-ai-chatbot",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-09",
+    "aciklama": "Last year, Image Line introduced Gopher for FL Studio, an AI chatbot that was basically a glorified instruction manual. You asked it how to do something, and it would serve up the relevant instructions. It's the kind of thing I actually use AI for on a semi-regular basis. But in the new release, Gopher can [&#8230;]"
+  },
+  {
+    "baslik": "Alibaba, çalışanlarına Claude Code’u sildirdi - NuvemMag",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pN1lTR3lKRWpaX1dWa0lCeTZLRW9BOVBrbGVFOEZzSTdaNy1keEl5X2ZrTnZpdElzejFEOUxuX3ctZV9ySlA0dUFDYlFaeHBydFVCcFVYQ2xFSGVUT1RtMW4wVXhKWWdfMU9MUjFhc1VvQjQ?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-09",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5pN1lTR3lKRWpaX1dWa0lCeTZLRW9BOVBrbGVFOEZzSTdaNy1keEl5X2ZrTnZpdElzejFEOUxuX3ctZV9ySlA0dUFDYlFaeHBydFVCcFVYQ2xFSGVUT1RtMW4wVXhKWWdfMU9MUjFhc1VvQjQ?oc=5\" target=\"_blank\">Alibaba, çalışanlarına Claude Code’u sildirdi</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NuvemMag</font>"
+  },
+  {
+    "baslik": "Singapur yatırım devi Temasek, yapay zekâya yönelişinde kripto paralardan uzak duracak - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQko2ejZsZUFjYl9wZ3YycmlJcDA2ZTN1UmpjWUxHNGhuS3U2NlBGWlExdUEyVFR2SzYtWUxKTjdGQVBVTTJTaWx3eUJ2NUJNMTRlUmxYVHdCTnNTMzlGc2l1QjZZT0gzc01NT29NSzBjY2xwMEl4RXRRRDFKc1llRVM4clAtUUVudDl3ejUxOExzMDJnbjJBSkQwcGtjd0IwaVJKUkowZF92S2REc1JhZ19ZVTFGSm9TYzlwbjBDeGxWdFNGWG51Vg?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-09",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQko2ejZsZUFjYl9wZ3YycmlJcDA2ZTN1UmpjWUxHNGhuS3U2NlBGWlExdUEyVFR2SzYtWUxKTjdGQVBVTTJTaWx3eUJ2NUJNMTRlUmxYVHdCTnNTMzlGc2l1QjZZT0gzc01NT29NSzBjY2xwMEl4RXRRRDFKc1llRVM4clAtUUVudDl3ejUxOExzMDJnbjJBSkQwcGtjd0IwaVJKUkowZF92S2REc1JhZ19ZVTFGSm9TYzlwbjBDeGxWdFNGWG51Vg?oc=5\" target=\"_blank\">Singapur yatırım devi Temasek, yapay zekâya yönelişinde kripto paralardan uzak duracak</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>"
+  },
+  {
+    "baslik": "SK Hynix ve CXMT'nin halka arz patlaması, sermayeyi kriptodan çekebilir - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWnpwSi1sc3FIV291dWRKUjBuN0phR2tsSkZLclphV3ItS2FyNkVZWTdiWjN5ZGZQN2JHclpaNDNYUF9PY0plRkVqblhrSjVGYXBwM3VuR1czS2VfVmdIcmRGbDVzYjZ0RkZzZ0xDNkpoQ2QxN2ZFVWVvWFd3LWRMcnZnbjJCQlptdUpJd1hYOGVJbG9hc3FUUHpHclFjdjlDQ09vZHlFempZNlZMSFloMFBGRHFJNkpyRlh0ag?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-09",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPWnpwSi1sc3FIV291dWRKUjBuN0phR2tsSkZLclphV3ItS2FyNkVZWTdiWjN5ZGZQN2JHclpaNDNYUF9PY0plRkVqblhrSjVGYXBwM3VuR1czS2VfVmdIcmRGbDVzYjZ0RkZzZ0xDNkpoQ2QxN2ZFVWVvWFd3LWRMcnZnbjJCQlptdUpJd1hYOGVJbG9hc3FUUHpHclFjdjlDQ09vZHlFempZNlZMSFloMFBGRHFJNkpyRlh0ag?oc=5\" target=\"_blank\">SK Hynix ve CXMT'nin halka arz patlaması, sermayeyi kriptodan çekebilir</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>"
+  },
+  {
+    "baslik": "Sunrun wants to put AI data centers in homes. It isn’t lifting the stock. - MSN",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeWFvT29zNXJrSUhqUTd4RF8yeFNQVHc4TTNqZUh3aC1vZHdRVV9YbnB1TzdNa2Z2MFR1WGczVHhxa1JjLXRQRk5yZnAyc1hnelR5eVluQml4anRtVTBiNmNSWnotSnNOUU9Dak5GVkt0MGkxdThnSS1Ha2lFYjJWMGluY1FhREdrMWZkYmtOM2VsSGhsU3VnWnVJelVsbWxGWkExM2p2RHY3b1BHRm5xSm9oeTh2Q1VoUm1VdzhCYw?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-09",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNeWFvT29zNXJrSUhqUTd4RF8yeFNQVHc4TTNqZUh3aC1vZHdRVV9YbnB1TzdNa2Z2MFR1WGczVHhxa1JjLXRQRk5yZnAyc1hnelR5eVluQml4anRtVTBiNmNSWnotSnNOUU9Dak5GVkt0MGkxdThnSS1Ha2lFYjJWMGluY1FhREdrMWZkYmtOM2VsSGhsU3VnWnVJelVsbWxGWkExM2p2RHY3b1BHRm5xSm9oeTh2Q1VoUm1VdzhCYw?oc=5\" target=\"_blank\">Sunrun wants to put AI data centers in homes. It isn’t lifting the stock.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>"
+  },
+  {
+    "baslik": "Data for Agents",
+    "link": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+    "kaynak": "Hugging Face Blog",
+    "tarih": "2026-07-08",
+    "aciklama": ""
+  },
+  {
+    "baslik": "Native-speed vLLM transformers modeling backend",
+    "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "kaynak": "Hugging Face Blog",
+    "tarih": "2026-07-08",
+    "aciklama": ""
+  },
+  {
+    "baslik": "Lovable reportedly in talks to double its valuation to $13.2B",
+    "link": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-08",
+    "aciklama": "The $300 million round is expected to be led by Menlo Ventures, Sifted reported."
+  },
+  {
+    "baslik": "Google’s deepfake detector system used to debunk McConnell hoax pic",
+    "link": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-08",
+    "aciklama": "Earlier this week, a picture seemed to show Kentucky Senator Mitch McConnell covered in tubes in a hospital bed in a state of extreme distress. It turned out to be an AI-generated fake."
+  },
+  {
+    "baslik": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
+    "link": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-08",
+    "aciklama": "Elon Musk's tech company released the newest version of Grok on Wednesday, promising a cheaper, more efficient alternative to other powerful AI models."
+  },
+  {
+    "baslik": "This startup thinks robotics is about to have its ChatGPT moment",
+    "link": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-08",
+    "aciklama": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data."
+  },
+  {
+    "baslik": "Google Photos adds a new AI ‘Video Remix’ tool",
+    "link": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-08",
+    "aciklama": "The feature can do things like apply cinematic relighting to brighten up a dark clip, swap out a plain background for something fun, or add artistic styles to videos."
+  },
+  {
+    "baslik": "Why this CEO thinks video games make better training data than the internet",
+    "link": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-08",
+    "aciklama": "When it comes to achieving artificial general intelligence (AGI), large language models just&#160;don’t&#160;have what it takes. Models like ChatGPT and Claude&#160;are great at text, but&#160;they&#8217;re&#160;less skilled at understanding how things&#160;actually move&#160;through space and time&#160;—&#160;an essential skill for producing intelligence that generalizes. That gap, it turns out, might be filled&#160;by&#160;gaming data.&#160;That&#8217;s&#160;the bet behind General Intuition, a"
+  },
+  {
+    "baslik": "Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.",
+    "link": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-08",
+    "aciklama": "Meta is adding a new safeguard to stop people from secretly recording others with its AI glasses. But the update comes as the company continues to expand how much personal data its AI products collect and use."
+  },
+  {
+    "baslik": "OpenAI releases new voice models for more natural live conversations",
+    "link": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-08",
+    "aciklama": "OpenAI says its new voice mode can speak and listen at the same time, a key ability for live translation."
+  },
+  {
+    "baslik": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+    "link": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-08",
+    "aciklama": "Founded in 2024, Prime Intellect’s goal is to give organizations capabilities to train their own agentic systems without relying on frontier AI labs."
+  },
+  {
+    "baslik": "These AI startups are growing  revenue at faster and faster rates",
+    "link": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-08",
+    "aciklama": "There are a lot of fast-growing AI startups, but some are growing even faster, they say."
+  },
+  {
+    "baslik": "ChatGPT’s upgraded voice mode is better at shutting up",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-08",
+    "aciklama": "OpenAI is overhauling ChatGPT's voice mode with a new model that it says is more like \"talking to another person.\" The new GPT-Live-1 is designed to interrupt you less and will also wait for you to continue speaking if you pause mid-conversation. During a press briefing, OpenAI research lead Kundan Kumar called GPT-Live-1 the company's [&#8230;]"
+  },
+  {
+    "baslik": "AI Monitörü 2026 - Ipsos",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zODlHSjQ4aFdhVloxWjNmTVhqc0xfMlNkTnMxU0ZMRk9RWjhBYXc5RlFqNDZNZUw2Zm1xeVpucmRPbXdhS3pabU0zeXBvTlo0VUN5TGEyOA?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-08",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zODlHSjQ4aFdhVloxWjNmTVhqc0xfMlNkTnMxU0ZMRk9RWjhBYXc5RlFqNDZNZUw2Zm1xeVpucmRPbXdhS3pabU0zeXBvTlo0VUN5TGEyOA?oc=5\" target=\"_blank\">AI Monitörü 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ipsos</font>"
+  },
+  {
+    "baslik": "AI.SU'nun Yeni Bölümünde Yapay Zekâ Çağında Yaratıcılık ve Özgünlük Tartışıldı - Marmara Yaşam",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWlkxVTJidHAwTmN3LUd3YnNoSFBndGJjZ1JFTnM5ak85MWFvMktkclktcEdyaHJwcWFteGtxd1FOMDZEV0psbm80enlNUWZhUTNSaDJPZ3FUeWhiLWNORmpPaVBaMnJqUGp6aXJmaGpsZlNkelJOWDcxSjBwclA3SGR0cDh0TmxJcUYyM21fWm80X2F5VndrYkQyOUxtVnVwZmExZXNRMWljY0piQllhM2tRTUtURzR0LWI3YWh3?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-08",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPWlkxVTJidHAwTmN3LUd3YnNoSFBndGJjZ1JFTnM5ak85MWFvMktkclktcEdyaHJwcWFteGtxd1FOMDZEV0psbm80enlNUWZhUTNSaDJPZ3FUeWhiLWNORmpPaVBaMnJqUGp6aXJmaGpsZlNkelJOWDcxSjBwclA3SGR0cDh0TmxJcUYyM21fWm80X2F5VndrYkQyOUxtVnVwZmExZXNRMWljY0piQllhM2tRTUtURzR0LWI3YWh3?oc=5\" target=\"_blank\">AI.SU'nun Yeni Bölümünde Yapay Zekâ Çağında Yaratıcılık ve Özgünlük Tartışıldı</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Marmara Yaşam</font>"
+  },
+  {
+    "baslik": "Claude Cowork Artık Mobil ve Web’de: Anthropic Erişimi Genişletiyor - NuvemMag",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMjY5d1RfTEt0dTB6eHAtY1J2OUwyMG1kcy0xYmtwUmgydE1qbEZmR1BraDJtU1NXdTZWcHM5VGRsa3NPLUtEYzN2OG5VRnB3dk9fYTN0ckc2QVVERFlIYmVJQy1LQ3FPcjVESEx2bkw4UWVfYjV1N1d0NnV2R1Foajd1emZTemE4azMwOWVySHk?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-08",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPMjY5d1RfTEt0dTB6eHAtY1J2OUwyMG1kcy0xYmtwUmgydE1qbEZmR1BraDJtU1NXdTZWcHM5VGRsa3NPLUtEYzN2OG5VRnB3dk9fYTN0ckc2QVVERFlIYmVJQy1LQ3FPcjVESEx2bkw4UWVfYjV1N1d0NnV2R1Foajd1emZTemE4azMwOWVySHk?oc=5\" target=\"_blank\">Claude Cowork Artık Mobil ve Web’de: Anthropic Erişimi Genişletiyor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NuvemMag</font>"
+  },
+  {
+    "baslik": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+    "kaynak": "Google AI Blog",
+    "tarih": "2026-07-07",
+    "aciklama": "Managed agents feature bundle launch"
+  },
+  {
+    "baslik": "From Hugging Face to Amazon SageMaker Studio in one click",
+    "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+    "kaynak": "Hugging Face Blog",
+    "tarih": "2026-07-07",
+    "aciklama": ""
+  },
+  {
+    "baslik": "Hugging Face Models on Foundry Managed Compute",
+    "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+    "kaynak": "Hugging Face Blog",
+    "tarih": "2026-07-07",
+    "aciklama": ""
+  },
+  {
+    "baslik": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+    "link": "https://huggingface.co/blog/skypilot-hf-storage",
+    "kaynak": "Hugging Face Blog",
+    "tarih": "2026-07-07",
+    "aciklama": ""
+  },
+  {
+    "baslik": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+    "link": "https://huggingface.co/blog/lerobot-release-v060",
+    "kaynak": "Hugging Face Blog",
+    "tarih": "2026-07-07",
+    "aciklama": ""
+  },
+  {
+    "baslik": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
+    "link": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-07",
+    "aciklama": "Meta is launching the first AI image generation model made by its Superintelligence Labs division. The Muse Image model now powers the image-making tools across the Meta AI app, Instagram, and WhatsApp, and it's coming soon to Facebook and Messenger, according to an announcement on Tuesday. It's part of the growing Muse family of AI [&#8230;]"
+  },
+  {
+    "baslik": "Anthropic is launching Claude Cowork on mobile and web",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-07",
+    "aciklama": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude desktop app for macOS and Windows, [&#8230;]"
+  },
+  {
+    "baslik": "Solos debuts an even lighter version of its camera-less smart glasses",
+    "link": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-07",
+    "aciklama": "Solos announced a new version of its AirGo smart glasses, one that forgoes cameras for a sleeker design and an AI assistant that relies on voice interactions. Last year's AirGo A5 weighed 36 to 40 grams depending on the frame style, but the new AirGo A6 weigh around 19 grams. Part of the weight savings [&#8230;]"
+  },
+  {
+    "baslik": "The foundational elements of AI architecture that IT leaders need to scale",
+    "link": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+    "kaynak": "MIT Technology Review (AI)",
+    "tarih": "2026-07-07",
+    "aciklama": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the future. Returning to the foundational elements of AI architecture—the&#8230;"
+  },
+  {
+    "baslik": "WULF Stock In Focus: TeraWulf CEO Reportedly Says Anthropic Deal Is Just The ‘Tip Of The Iceberg’ For AI Infrastructure - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQQ1l5ZU9tc3YwbjB1cE9fc2tURFJ2dGZ0REc1SUtYV3hQYU1XN0dPbnVPa2hUNVRxTHZLQ1lNdzkxNGVnaUFuUWxQenBMQXk0b1MtUGMzdHh6cGpVN0RudG9nX0ZYdmJVVjZRc2hiTDJnZkMtVUJVX2VBb2dLa1ZxVDAzNkhIdlVfbVhyWEpYVXptTWoyaV9BUmFfdWJTSHI3ZGdrRWs4VzFoR2JhSzlKb0k3VWl6b2hNOVBybzZwa19sN3ZvQUNYSXpxQXF3b2w5NFoyUEN3OFBDUzQ5NjR3NTFPM2V0dy1mZTZKXzM4Vko3VWlORUhEcDh4TEZhamQ3TFYtaFA0cw?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-07",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMihwJBVV95cUxQQ1l5ZU9tc3YwbjB1cE9fc2tURFJ2dGZ0REc1SUtYV3hQYU1XN0dPbnVPa2hUNVRxTHZLQ1lNdzkxNGVnaUFuUWxQenBMQXk0b1MtUGMzdHh6cGpVN0RudG9nX0ZYdmJVVjZRc2hiTDJnZkMtVUJVX2VBb2dLa1ZxVDAzNkhIdlVfbVhyWEpYVXptTWoyaV9BUmFfdWJTSHI3ZGdrRWs4VzFoR2JhSzlKb0k3VWl6b2hNOVBybzZwa19sN3ZvQUNYSXpxQXF3b2w5NFoyUEN3OFBDUzQ5NjR3NTFPM2V0dy1mZTZKXzM4Vko3VWlORUhEcDh4TEZhamQ3TFYtaFA0cw?oc=5\" target=\"_blank\">WULF Stock In Focus: TeraWulf CEO Reportedly Says Anthropic Deal Is Just "
+  },
+  {
+    "baslik": "2008 krizini bilen ünlü yatırımcıdan AI balonu için kritik uyarı: \"Sona yaklaştık!\" - DonanımHaber",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaVNVYmdVaWEwOVdQYk1XQzFKN3RDZ0NtdmhXc1RJZnVOdkt2N0h1cFJjU19rN1ltYUVfS2ZTTm9GN1BySzh1TmVnM0sxOFhXYjRSOEVUMzk2VEVxR0g0ZldKeVp4V3JDcTRBZDRNUFBaNjBrQnhZa09OeGRKR3BEaG93MkJrZFphbF9EVzF5cDR5NV9kSGpNVHYxQ0UxWVB4dmhj0gGoAUFVX3lxTE1vT0ZuMVlUQXZ4dV9aQWRVbnRVdjVab25fNFFRam5BQkJ6QURmb3ZleW5IQlB6cllhZUhjU3ZieGticWE3SU93UmdOY0NOcTh1NE5UdWs4ZUpKVUc0ZHlnZFZMTWUwLW4wYkgzaG1TbUtUZW9oNFF6Z0tLYjZmYU52WVBYbWJwYlkwVjU3TGpORVMyV1BERThDZlAyOFlHS3BTMmJoV0p4SQ?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-07",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOaVNVYmdVaWEwOVdQYk1XQzFKN3RDZ0NtdmhXc1RJZnVOdkt2N0h1cFJjU19rN1ltYUVfS2ZTTm9GN1BySzh1TmVnM0sxOFhXYjRSOEVUMzk2VEVxR0g0ZldKeVp4V3JDcTRBZDRNUFBaNjBrQnhZa09OeGRKR3BEaG93MkJrZFphbF9EVzF5cDR5NV9kSGpNVHYxQ0UxWVB4dmhj0gGoAUFVX3lxTE1vT0ZuMVlUQXZ4dV9aQWRVbnRVdjVab25fNFFRam5BQkJ6QURmb3ZleW5IQlB6cllhZUhjU3ZieGticWE3SU93UmdOY0NOcTh1NE5UdWs4ZUpKVUc0ZHlnZFZMTWUwLW4wYkgzaG1TbUtUZW9oNFF6Z0tLYjZmYU52WVBYbWJwYlkwVjU3TGpORVMyV1BERThDZlAyOFlHS3BTMmJoV0p4SQ"
+  },
+  {
+    "baslik": "PRX Part 4: Our Data Strategy",
+    "link": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+    "kaynak": "Hugging Face Blog",
+    "tarih": "2026-07-06",
+    "aciklama": ""
+  },
+  {
+    "baslik": "🤗 Kernels: Major Updates",
+    "link": "https://huggingface.co/blog/revamped-kernels",
+    "kaynak": "Hugging Face Blog",
+    "tarih": "2026-07-06",
+    "aciklama": ""
+  },
+  {
+    "baslik": "I spy",
+    "link": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-06",
+    "aciklama": "I've long argued that Hollywood has simultaneously set and ruined our expectations for smart glasses. But after binge-watching two seasons of Netflix's A Man on the Inside, this is perhaps the first time I've seen Hollywood, perhaps inadvertently, illustrate the biggest cultural problem with smart glasses as they stand today. In a nutshell, Ted Danson [&#8230;]"
+  },
+  {
+    "baslik": "Microsoft is laying off 4,800 employees",
+    "link": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-06",
+    "aciklama": "A year after cutting around 9,100 employees, Microsoft is making further layoffs today as it begins its new financial year. The software maker is laying off around 4,800 employees today, approximately 2.1 percent of its workforce. Most of the employees affected by today's cuts are in Microsoft's commercial sales business or the company's Xbox division. [&#8230;]"
+  },
+  {
+    "baslik": "Your family’s $300 stake in OpenAI",
+    "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+    "kaynak": "MIT Technology Review (AI)",
+    "tarih": "2026-07-06",
+    "aciklama": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times reported that Altman is in&#8230;"
+  },
+  {
+    "baslik": "Fortune 500’deki her 10 şirketten sekizinin işlerinde “düşük kodla/kodsuz/ya da vibe kodla” ürettiği bir tür yapay zeka ajanı kullandığı belirtiliyor. Bu ajanlar satıştan müşteri hizmetlerine kadar her alanda etkinlik gösteriyor. Ankete katılan şirketlerde yapay zeka - instagram.com",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDZmZYYjJVVzJ3V0pTTXFmbm1EU0tTei1lQTdBX0Z4Y19SUE8yR1otVGZlTmxaQnFRUENvb1h4V1BTdWNtVWhqUmhEeF8tX1EzbkE?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-06",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDZmZYYjJVVzJ3V0pTTXFmbm1EU0tTei1lQTdBX0Z4Y19SUE8yR1otVGZlTmxaQnFRUENvb1h4V1BTdWNtVWhqUmhEeF8tX1EzbkE?oc=5\" target=\"_blank\">Fortune 500’deki her 10 şirketten sekizinin işlerinde “düşük kodla/kodsuz/ya da vibe kodla” ürettiği bir tür yapay zeka ajanı kullandığı belirtiliyor. Bu ajanlar satıştan müşteri hizmetlerine kadar her alanda etkinlik gösteriyor. Ankete katılan şirketlerde yapay zeka</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">instagram.c"
+  },
+  {
+    "baslik": "Groupon’s Comeback Has Three Engines: AI Restructuring, Russell Value Index Inclusion And Short Squeeze Bets - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZzI0aDMxY2hqbHctLVlaMzlHTE5qWXF4S1dVRjFHZEtqaHdNbDVfbnFVVFNfRlhLNzBjR1NuNGFOLTNYb2szM1NKZ2dxWlJWSWRqN2FSZE1zQmhqLWpDd2UxYUtEamJ5bW50OTFzaHpjY0FiMjRBbWZJZEMwSE5LaGhqalVqdU1GZjhLRExqb3JpNE5jTlpTcmxSUTRpZGc1S05iQXZCaTR6QzJ0b3lhRnhzSER3RWtWeF9Jd3dpMkZvTzk0WEE3NXFTRGRPSFFEZ19Zclc2a0l1TndoY1pKdWVMRndTaHJHc3d0TlV4TEUzU0M4bnk1LTVn?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-06",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZzI0aDMxY2hqbHctLVlaMzlHTE5qWXF4S1dVRjFHZEtqaHdNbDVfbnFVVFNfRlhLNzBjR1NuNGFOLTNYb2szM1NKZ2dxWlJWSWRqN2FSZE1zQmhqLWpDd2UxYUtEamJ5bW50OTFzaHpjY0FiMjRBbWZJZEMwSE5LaGhqalVqdU1GZjhLRExqb3JpNE5jTlpTcmxSUTRpZGc1S05iQXZCaTR6QzJ0b3lhRnhzSER3RWtWeF9Jd3dpMkZvTzk0WEE3NXFTRGRPSFFEZ19Zclc2a0l1TndoY1pKdWVMRndTaHJHc3d0TlV4TEUzU0M4bnk1LTVn?oc=5\" target=\"_blank\">Groupon’s Comeback Has Three Engines: AI Restructuring, Russell Value Index Inclusion And S"
+  },
+  {
+    "baslik": "Show HN: I ran 400 hours of interviews, so I built the tool I wished existed",
+    "link": "https://news.ycombinator.com/item?id=48778853",
+    "kaynak": "Hacker News",
+    "tarih": "2026-07-03",
+    "aciklama": "HN puani: 2"
+  }
+]
