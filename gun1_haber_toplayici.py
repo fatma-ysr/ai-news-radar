@@ -162,8 +162,7 @@ def hacker_news_tara(en_eski_tarih):
 
     haberler = []
     for hikaye in sonuc.get("hits", []):
-        for hikaye in sonuc.get("hits", []):
-         if hikaye.get("points", 0) < 100:
+        if hikaye.get("points", 0) < 100:
             continue  # dusuk puanli hikayeleri biz eliyoruz (API filtrelemiyor)
         haberler.append({
             "baslik":   hikaye.get("title", "(basliksiz)").strip(),
