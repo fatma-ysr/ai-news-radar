@@ -2,6 +2,7 @@
 
 import json
 from datetime import date
+import os
 
 
 def raporu_birlestir(rapor, haberler):
@@ -32,6 +33,13 @@ def raporu_birlestir(rapor, haberler):
         "haberler": tam_haberler
     }
 
+def radar_json_yaz(tam_rapor):
+    # Tam raporu docs/radar.json'a yazar (GitHub Pages bunu yayinlayacak)
+    os.makedirs("docs", exist_ok=True)
+    with open("docs/radar.json", "w", encoding="utf-8") as f:
+        json.dump(tam_rapor, f, ensure_ascii=False, indent=2) 
+        
+
 if __name__ == "__main__":
     # Test: sahte mini rapor ile birlestirmeyi dene
     with open("haberler.json", "r", encoding="utf-8") as f:
@@ -50,3 +58,5 @@ if __name__ == "__main__":
 
     sonuc = raporu_birlestir(sahte_rapor, haberler)
     print(json.dumps(sonuc, ensure_ascii=False, indent=2))
+    radar_json_yaz(sonuc)
+    print("docs/radar.json yazildi.")
