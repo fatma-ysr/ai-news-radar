@@ -3,7 +3,7 @@
 import json
 from datetime import date
 import os
-
+import csv
 
 def raporu_birlestir(rapor, haberler):
     # Claude raporundaki kaynak_no'lari gercek haber bilgileriyle birlestirir
@@ -38,7 +38,25 @@ def radar_json_yaz(tam_rapor):
     os.makedirs("docs", exist_ok=True)
     with open("docs/radar.json", "w", encoding="utf-8") as f:
         json.dump(tam_rapor, f, ensure_ascii=False, indent=2) 
-        
+
+
+def arsive_ekle(tam_rapor):
+    # Haberleri data/arsiv.csv'ye ekler (append) - gecmis birikir
+    os.makedirs("data", exist_ok=True)
+    dosya_var = os.path.exists("data/arsiv.csv")
+    sutunlar = ["rapor_tarihi", "sira", "baslik", "url", "kaynak", "tarih",
+                "ne_oldu", "ne_oldu_en", "senin_icin_neden_onemli",
+                "senin_icin_neden_onemli_en", "ne_takip_edilmeli",
+                "ne_takip_edilmeli_en", "onem_puani"]
+    with open("data/arsiv.csv", "a", encoding="utf-8", newline="") as f:
+        yazici = csv.DictWriter(f, fieldnames=sutunlar)
+        if not dosya_var:
+            yazici.writeheader()
+        for h in tam_rapor["haberler"]:
+            satir = dict(h)
+            satir["rapor_tarihi"] = tam_rapor["rapor_tarihi"]
+            yazici.writerow(satir)
+
 
 if __name__ == "__main__":
     # Test: sahte mini rapor ile birlestirmeyi dene
@@ -60,3 +78,5 @@ if __name__ == "__main__":
     print(json.dumps(sonuc, ensure_ascii=False, indent=2))
     radar_json_yaz(sonuc)
     print("docs/radar.json yazildi.")
+    arsive_ekle(sonuc)
+    print("data/arsiv.csv guncellendi.")

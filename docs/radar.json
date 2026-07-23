@@ -1,0 +1,33 @@
+{
+  "rapor_tarihi": "2026-07-23",
+  "haberler": [
+    {
+      "sira": 1,
+      "baslik": "OpenAI bets on families as ChatGPT goes deeper into households",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "kaynak": "TechCrunch AI",
+      "tarih": "2026-07-11",
+      "ne_oldu": "test",
+      "ne_oldu_en": "test",
+      "senin_icin_neden_onemli": "test",
+      "senin_icin_neden_onemli_en": "test",
+      "ne_takip_edilmeli": "test",
+      "ne_takip_edilmeli_en": "test",
+      "onem_puani": 9
+    },
+    {
+      "sira": 2,
+      "baslik": "Apple sues OpenAI over alleged trade secret theft",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "kaynak": "TechCrunch AI",
+      "tarih": "2026-07-10",
+      "ne_oldu": "test",
+      "ne_oldu_en": "test",
+      "senin_icin_neden_onemli": "test",
+      "senin_icin_neden_onemli_en": "test",
+      "ne_takip_edilmeli": "test",
+      "ne_takip_edilmeli_en": "test",
+      "onem_puani": 8
+    }
+  ]
+}
