@@ -1,352 +1,653 @@
 [
   {
-    "baslik": "OpenAI bets on families as ChatGPT goes deeper into households",
-    "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-    "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-11",
-    "aciklama": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting."
+    "baslik": "Native Multi-Dimensional Subquadratic Operators via Input Dependent Long Convolutions",
+    "link": "https://arxiv.org/abs/2607.19378",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19378v1 Announce Type: new \nAbstract: Subquadratic alternatives to attention require compromises when applied to multi-dimensional data: standard convolutions lack global receptive fields and input dependency, while recurrent models require rasterizing data such as images, volumes, and partial differential equation (PDE) into an ad-hoc $1\\rm D$ scan order that violates their spatial structure. We introduce \\textit{HyenaND}, a subquadratic, global, input-dependent operator that acts di"
   },
   {
-    "baslik": "Teknoloji sektörü dışındaki CEO’ların yapay zeka konusunda daha az net bir tavır sergiledikleri görülüyor. Wharton’dan yönetim profesörü Peter Cappelli, pek çok yöneticinin hala bu araçları inşa eden insanları dinlediğini ve bu yaklaşımların kendi işlerine uyg - instagram.com",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03b0dPZjB6aHl4UklOTWRtN3BraHd2Qmxwc0dYbXFHNjNYYldibU0xWl9QZUZpbEJYQ0xUR3RsZGtHQlA3RmRGbkpwSWpqMVcyMnc?oc=5",
-    "kaynak": "Google News (AI)",
-    "tarih": "2026-07-11",
-    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE03b0dPZjB6aHl4UklOTWRtN3BraHd2Qmxwc0dYbXFHNjNYYldibU0xWl9QZUZpbEJYQ0xUR3RsZGtHQlA3RmRGbkpwSWpqMVcyMnc?oc=5\" target=\"_blank\">Teknoloji sektörü dışındaki CEO’ların yapay zeka konusunda daha az net bir tavır sergiledikleri görülüyor. Wharton’dan yönetim profesörü Peter Cappelli, pek çok yöneticinin hala bu araçları inşa eden insanları dinlediğini ve bu yaklaşımların kendi işlerine uyg</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">instagram.com</fon"
+    "baslik": "Bayesian Wind Tunnels for Model Selection",
+    "link": "https://arxiv.org/abs/2607.19379",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19379v1 Announce Type: new \nAbstract: Prior work has shown that transformers can perform exact Bayesian filtering within a fixed\n  hypothesis class. Can they also perform Bayesian model selection -- identifying the correct\n  hypothesis class from data? We introduce model-selection Bayesian wind tunnels: controlled\n  environments where ground-truth posteriors over hypothesis classes are available in closed\n  form. Using fixed-point-free involutions -- whose defining property f(f(x))=x "
   },
   {
-    "baslik": "Profiling in PyTorch (Part 3): Attention is all you profile",
-    "link": "https://huggingface.co/blog/torch-attention-profile",
+    "baslik": "CruiseBench: A Real-Flight-Aligned N-CMAPSS Benchmark for Engine RUL Prediction",
+    "link": "https://arxiv.org/abs/2607.19380",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19380v1 Announce Type: new \nAbstract: Remaining useful life (RUL) prediction estimates how long an engine can continue safe operation and is central to maintenance planning. N-CMAPSS extends C-MAPSS by simulating run-to-failure aero-engine trajectories using recorded real-flight profiles and retaining complete within-flight time series rather than cycle-level snapshots. However, this added realism reduces evaluation control because full-flight records increase data volume and entangle"
+  },
+  {
+    "baslik": "Air Quality Arena: A Large-Scale Multi-Region Ground Monitoring Dataset and Benchmark for Air Quality Forecasting with Time-Series Foundation Models",
+    "link": "https://arxiv.org/abs/2607.19381",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19381v1 Announce Type: new \nAbstract: Air pollution causes an estimated 7.9 million premature deaths annually, making accurate forecasting a critical public health priority. Machine learning is increasingly being applied to forecast air pollution levels, yet existing benchmarks remain narrow in both geographic scope and pollutant coverage, and fail to evaluate the latest generation of time series foundation models (TSFMs) on real world, large scale data. We present Air Quality Arena ("
+  },
+  {
+    "baslik": "Challenges of Explainability in Continual Learning for Time Series Forecasting",
+    "link": "https://arxiv.org/abs/2607.19382",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19382v1 Announce Type: new \nAbstract: Deep learning models have shown strong potential for time series forecasting, yet their deployment in real-world environmental monitoring remains challenging due to non-stationary dynamics and limited explainability. In this work, we investigate explainability as a central tool for understanding continual learning in adaptive time series forecasting, with Experience Replay strategies. We study neural forecasting architectures such as PatchMixer, P"
+  },
+  {
+    "baslik": "SUM: Unified Geometric Surgery on Spatio-Temporal Adaptation Vectors for Federated Class Incremental Learning",
+    "link": "https://arxiv.org/abs/2607.19384",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19384v1 Announce Type: new \nAbstract: Real-world intelligent systems often require both distributed collaboration across data-isolated clients and continual adaptation to evolving tasks. This setting naturally gives rise to Federated Class Incremental Learning (FCIL), which combines Federated Learning (FL) and Continual Learning (CL). However, their combination introduces two coupled sources of interference: spatial interference from heterogeneous clients and temporal interference fro"
+  },
+  {
+    "baslik": "STN-TGAT: Top-K Portfolio Construction via Prior-Guided Graph Attention with Learnable Soft-Threshold Sparsification",
+    "link": "https://arxiv.org/abs/2607.19385",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19385v1 Announce Type: new \nAbstract: This paper tackles the problem of stock ranking and portfolio construction under realistic investment settings by jointly modeling temporal dynamics and cross-sectional dependencies. We propose the Soft-Threshold NMI-prior Transformer Graph Attention Network (STN-TGAT), which integrates a temporal Transformer with a Graph Attention Network to capture long-horizon sequential patterns and dynamic inter-stock relationships. An NMI-based prior graph c"
+  },
+  {
+    "baslik": "Building Fast, Evaluating Slow: Pipeline Choices Dominate Autointerpretability Score Variance",
+    "link": "https://arxiv.org/abs/2607.19386",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19386v1 Announce Type: new \nAbstract: Cross-paper comparison of sparse autoencoder (SAE) interpretability often relies on autointerpretability scores. In this evaluation pipeline, a language model (LM) explains each feature, and another LM scores the explanation. For these comparisons to be meaningful, scores must reflect stable properties of the features rather than confounding aspects of the evaluation pipeline. Through systematic experiments across four metrics (simulation, detecti"
+  },
+  {
+    "baslik": "Scale-Aware Learning of Chaotic Dynamics on Unstructured Meshes via Binned Spectral Losses",
+    "link": "https://arxiv.org/abs/2607.19387",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19387v1 Announce Type: new \nAbstract: Surrogate modeling for high-dimensional nonlinear dynamical systems that exhibit chaos requires mechanisms that preserve not only pointwise accuracy but also the scale-dependent structure of physical fields. Bandwise spectral power losses, such as the binned spectral loss function, provide such supervision on structured grids, where Fourier modes define a standard frequency decomposition. On irregular meshes, however, no canonical Fourier basis ex"
+  },
+  {
+    "baslik": "Neural Operator Surrogates for Two-Dimensional Neutron Flux Estimation",
+    "link": "https://arxiv.org/abs/2607.19388",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19388v1 Announce Type: new \nAbstract: This work extends our one-dimensional single-sweep neural-operator studies to two dimensions. We consider one-group transport with isotropic scattering. As in the one-dimensional work, we use Fourier neural operators (FNOs) to approximate the high-fidelity scalar flux. Additionally, we also investigate U-shaped neural operators (UNOs) in this study. We consider three surrogates. The first two map the material and source fields directly to the flux"
+  },
+  {
+    "baslik": "The Orthogonalized Read Is a Removable Training Scaffold for Recurrent Memory",
+    "link": "https://arxiv.org/abs/2607.19390",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19390v1 Announce Type: new \nAbstract: A recent report finds that orthogonalizing the mLSTM memory matrix at read time (five Newton-Schulz iterations, trained through) substantially improves noisy associative recall. The effect replicates, but it is not a memory improvement. Training on this task is a long chance plateau followed by a sharp escape, and the orthogonalized read acts by re-conditioning the learning problem during the plateau. Three properties establish this. It must be se"
+  },
+  {
+    "baslik": "LAARA: Layer-Aware Adaptive Rank Allocation for Parameter-Efficient Fine-Tuning",
+    "link": "https://arxiv.org/abs/2607.19391",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19391v1 Announce Type: new \nAbstract: Low-Rank Adaptation is widely used for parameter-efficient fine-tuning, yet existing methods typically assign the same adapter rank to every transformer layer despite their heterogeneous adaptation requirements. In this work, we show theoretically and empirically that uniform rank allocation is fundamentally suboptimal. Motivated by this observation, we propose LAARA (Layer Aware Adaptive Rank Allocation framework), a search-free framework that dy"
+  },
+  {
+    "baslik": "Predicting Groundwater Arsenic Concentrations Using Graph Neural Networks",
+    "link": "https://arxiv.org/abs/2607.19392",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19392v1 Announce Type: new \nAbstract: Arsenic contamination in groundwater presents a longstanding public health crisis in the United States, especially for households depending on private wells. Accurate and spatially informed prediction of arsenic concentration is vital to identify high-risk areas and focus mitigation efforts. However, there is a lack of generalizable models for representing continuous variation in arsenic concentrations across regions. In this work, we pose arsenic"
+  },
+  {
+    "baslik": "Decodable but Not Detectable: A Leakage Fingerprint for Near-OOD Benchmarks",
+    "link": "https://arxiv.org/abs/2607.19393",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19393v1 Announce Type: new \nAbstract: While auditing a perturbation-based OOD detector on a document benchmark, we recorded an AUROC of 0.326 -- well below the 0.5 chance level. The cause is a benchmark leak: the designated \"OOD\" class is one the model was trained on, so its examples sit inside the in-distribution fit set and the detector is penalized for correctly ranking them as familiar. Deleting the class and retraining 35 models across two domains raises the score to 0.911. We di"
+  },
+  {
+    "baslik": "Cross-Subject Semantic Decoding with Shared-Space Alignment for Generalized Neural Representation Learning",
+    "link": "https://arxiv.org/abs/2607.19394",
+    "kaynak": "arXiv - Makine Ogrenmesi (cs.LG)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19394v1 Announce Type: new \nAbstract: Generalizing across subjects remains challenging in invasive neural recordings because electrode configurations, anatomical structures, and neural signal patterns vary substantially across individuals. To investigate such inter-subject variability, we propose a cross-subject semantic decoding framework that aligns neural responses to speech perception from multiple subjects into a shared latent space and learns a mapping from the aligned neural re"
+  },
+  {
+    "baslik": "Stateful Guardrails for Multi-Turn LLM Systems: A Conversational Risk Accumulation Framework",
+    "link": "https://arxiv.org/abs/2607.19361",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19361v1 Announce Type: new \nAbstract: Most safety guardrails for large language models (LLMs) evaluate each prompt-response pair in isolation, which misses failures that arise only over a dialogue as benign turns compose into harm. We term this Conversational Risk Accumulation (CRA): gradual intent drift, fragmented assembly of prohibited instructions, and sensitivity build-up from repeated disclosures. We propose a session-layer CRA Framework that tracks three trajectory signals: sem"
+  },
+  {
+    "baslik": "When Reasoning Narrows the Move: Diversity Collapse in LLM Game Play",
+    "link": "https://arxiv.org/abs/2607.19523",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19523v1 Announce Type: new \nAbstract: Supervised fine-tuning (SFT) is widely used to adapt large language models to downstream tasks, but its effect on behavioral diversity in sequential decision-making remains under-explored. We study this question in a controlled suite of deterministic board games based on tic-tac-toe variants, where optimal actions are exactly computable and diversity can be measured directly. Across state-level evaluation, arena gameplay, and training trajectories"
+  },
+  {
+    "baslik": "On the Computational Complexity of Structural Generalization",
+    "link": "https://arxiv.org/abs/2607.19573",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19573v1 Announce Type: new \nAbstract: Structural generalization has been measured repeatedly by several benchmarks, yet it has never been formally defined. We give a definition that translates the two premises (compositional structure and unbounded generalization) into mathematical language. The definition itself is neutral: a compiler that hard-codes the rules satisfies it just as well. But structural generalization becomes a scientific question only insofar as the capacity can auton"
+  },
+  {
+    "baslik": "Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models",
+    "link": "https://arxiv.org/abs/2607.19604",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19604v1 Announce Type: new \nAbstract: Injecting factual knowledge into large language models (LLMs) reliably and at scale remains an open challenge. Hypernetworks provide a promising solution to large-scale knowledge injection. Although hypernetworks are typically applied for test-time adaptation, we explore their use in train-time knowledge injection, where, given a large corpus of facts, we train a hypernetwork to generate a fixed LoRA adapter that, when inserted into the target mod"
+  },
+  {
+    "baslik": "Task Competence Is Not Instruction Following: Evaluating Instruction-Conflicting Behavior in Small Language Models",
+    "link": "https://arxiv.org/abs/2607.19608",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19608v1 Announce Type: new \nAbstract: Instruction tuning is meant to make language models follow user requests, yet it is unclear whether small models comply when an instruction conflicts with their usual task behavior. We study this across three tasks - multiple-choice question answering (MCQA), sentiment classification, and mathematical question answering - by pairing a standard instruction with a conflicting non-standard one (select an incorrect option, output the opposite sentimen"
+  },
+  {
+    "baslik": "Adaptive Capitulation: A Structural Failure Mode of LLM Responses in Vulnerability Contexts",
+    "link": "https://arxiv.org/abs/2607.19629",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19629v1 Announce Type: new \nAbstract: Large language models operating in emotionally sensitive contexts face a structural trilemma: when users in vulnerable states request information that may reinforce maladaptive attribution, current response architectures resolve the tension through protective restriction, uninflected facilitation, or unintegrated co-presence of both imperatives -- each preserving one objective at the cost of the other. Administering a three-turn escalating vulnera"
+  },
+  {
+    "baslik": "Reference-Free Evaluation of Reasoning in Open-Ended Question Answering",
+    "link": "https://arxiv.org/abs/2607.19678",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19678v1 Announce Type: new \nAbstract: AI-generated answers in high-stakes domains are often fluent but difficult to verify, especially when they contain multi-step reasoning rather than a single final answer. We propose a reasoning-based, reference-free framework for auditing LLM-generated outputs. The method decomposes a generated reasoning trace into segments, labels local premise-target relations using Natural Language Inference (NLI), and organizes these relations into a hypergrap"
+  },
+  {
+    "baslik": "Multi-Mask Diffusion Language Models for Few-Step Generation",
+    "link": "https://arxiv.org/abs/2607.19686",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19686v1 Announce Type: new \nAbstract: Masked diffusion models (MDMs) are a promising family of language generators, but achieving high-quality few-step generation remains challenging. In MDMs, all forward trajectories collapse to a single fully masked state, leaving no terminal entropy for consistency-style few-step generation. While recent few-step alternatives based on uniform-state diffusion avoid this degeneracy, it becomes harder to distinguish clean tokens from noise than MDMs, "
+  },
+  {
+    "baslik": "SLPO: Scaling Latent Reasoning via a Surrogate Policy",
+    "link": "https://arxiv.org/abs/2607.19691",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19691v1 Announce Type: new \nAbstract: Reinforcement learning with verifiable rewards has become the predominant recipe for eliciting test-time scaling in explicit Chain-of-Thought reasoners. Yet this scaling path remains computationally costly, since every intermediate step must be decoded as a language token. Latent reasoning instead carries intermediate computation as continuous vectors and already matches or surpasses explicit CoT at far shorter horizons. Despite this promise, late"
+  },
+  {
+    "baslik": "Lightweight Person-Place Relation Extraction from Historical Newspapers with Dependency Graphs and Proximity Features",
+    "link": "https://arxiv.org/abs/2607.19718",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19718v1 Announce Type: new \nAbstract: The HIPE-2026 shared task introduces person-place relation extraction from multilingual historical newspapers as a new evaluation track, classifying the at and isAt relations between pre-annotated person and location mentions in English, French, and German. Motivated by the cost of processing historical archives at scale, our team (DS@GT HIPE, team 2 in the official results) investigates how far a lightweight, interpretable system can go without a"
+  },
+  {
+    "baslik": "Beyond Relevance-Centric Retrieval: Rubric-Oriented Document Set Selection and Ranking",
+    "link": "https://arxiv.org/abs/2607.19747",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19747v1 Announce Type: new \nAbstract: As large language models and AI agents become the primary consumers of search results, document set quality determines the upper bound of downstream generation. Yet existing evaluation systems remain confined to scoring documents independently and aggregating via nDCG, ignoring inter-document interactions (redundancy, conflict, complementarity) and unable to answer what makes one document set better than another. To address these issues, we propos"
+  },
+  {
+    "baslik": "Learning the Arabic Dialect Continuum as a Continuous Space: A Regression Approach to Speaker Origin Prediction",
+    "link": "https://arxiv.org/abs/2607.19751",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19751v1 Announce Type: new \nAbstract: We present a regression-based approach to Arabic dialect geolocation that models dialectal variation as a continuous geographic space rather than discrete categories. Speaker origin is predicted as continuous latitude-longitude coordinates using a hierarchical neural architecture that fuses frame-level XLS-R-300M and Whisper-large-v3 encoder representations with phonotactic descriptors through a Transformer encoder and a learnable attention-pooled"
+  },
+  {
+    "baslik": "TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis",
+    "link": "https://arxiv.org/abs/2607.19794",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19794v1 Announce Type: new \nAbstract: Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count. We present TriAgent, a multi-agent committee stratified by contextual granularity -- a word-level lexicon (VADER), a sentence-level domain transformer (FinBERT), and a cross-sentence reasoner (Qwen2.5, 0.5B-14B-4bit, with Mistral-7B and"
+  },
+  {
+    "baslik": "VizRAG: Enhancing Retrieval-Augmented Generation with Hypergraph Visualization",
+    "link": "https://arxiv.org/abs/2607.19830",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19830v1 Announce Type: new \nAbstract: Hypergraph-based RAG systems surpass traditional graph-based approaches by organizing complex n-ary atomic facts among entities, rather than relying solely on binary relationships. Despite the advancements in multimodal large language models (MLLMs) with enhanced visual capabilities, current hypergraph-based RAG frameworks predominantly restrict knowledge retrieval and reconstruction to a unimodal, text-centric paradigm. This limitation prevents t"
+  },
+  {
+    "baslik": "D2VBench: Benchmarking Large Language Models with Value Dilemmas in Daily Scenarios",
+    "link": "https://arxiv.org/abs/2607.19834",
+    "kaynak": "arXiv - Dil Isleme (cs.CL)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19834v1 Announce Type: new \nAbstract: With the wide application of large language models (LLMs) in real-world scenarios, the value implication of their outputs is crucial. However, existing evaluation benchmarks suffer from insufficient coverage of value dilemmas in daily scenarios involving multiple value conflicts and simplistic evaluation formalisms that fail to assess LLMs' value alignment. To address these issues, we propose D2VBench, a value alignment benchmark comprising 10,000"
+  },
+  {
+    "baslik": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+    "link": "https://huggingface.co/blog/nunchaku-diffusers",
     "kaynak": "Hugging Face Blog",
-    "tarih": "2026-07-10",
+    "tarih": "2026-07-23",
     "aciklama": ""
   },
   {
-    "baslik": "Meta removes controversial AI feature on Instagram after backlash",
-    "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+    "baslik": "Nvidia is sending GPUs to the moon",
+    "link": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
     "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-10",
-    "aciklama": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"We've heard the feedback that this feature missed the mark, so it's no longer available.\""
+    "tarih": "2026-07-23",
+    "aciklama": "If there's a place in the universe without GPUs, Nvidia is sending them there."
   },
   {
-    "baslik": "Apple sues OpenAI over alleged trade secret theft",
-    "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+    "baslik": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+    "link": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
     "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-10",
-    "aciklama": "Apple alleges the misconduct was directed by OpenAI's senior leadership, including a longtime former employee."
+    "tarih": "2026-07-23",
+    "aciklama": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says."
   },
   {
-    "baslik": "Open source AI matters more than ever, according to Hugging Face’s Clem Delangue",
-    "link": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+    "baslik": "Google’s Gemini nears billion-user milestone",
+    "link": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
     "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-10",
-    "aciklama": "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start [&#8230;]"
+    "tarih": "2026-07-23",
+    "aciklama": "Gemini had over 750 million monthly users in February."
   },
   {
-    "baslik": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
-    "link": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+    "baslik": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
+    "link": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
     "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-10",
-    "aciklama": "The AI chip boom just produced its biggest Wall Street moment yet. Now SK Hynix and Samsung are being asked to build U.S. factories."
+    "tarih": "2026-07-23",
+    "aciklama": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch."
   },
   {
-    "baslik": "Hugging Face’s CEO on why companies are done renting their AI",
-    "link": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+    "baslik": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+    "link": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
     "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-10",
-    "aciklama": "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start [&#8230;]"
+    "tarih": "2026-07-23",
+    "aciklama": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally."
   },
   {
-    "baslik": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
-    "link": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
-    "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-10",
-    "aciklama": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps."
+    "baslik": "A Bayesian Framework for Built-in Input Dimension Reduction for Gaussian Process Modeling",
+    "link": "https://arxiv.org/abs/2607.19498",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19498v1 Announce Type: new \nAbstract: Gaussian process (GP) modeling is widely used in computational science and engineering. However, fitting a GP to high-dimensional inputs remains challenging due to the curse of dimensionality. While various methods have been proposed to reduce input dimensionality, they typically follow a two-stage approach, performing dimension reduction and GP fitting separately. We introduce a Bayesian framework that seamlessly integrates dimensionality reducti"
   },
   {
-    "baslik": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
-    "link": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+    "baslik": "Boltzmann-Expected Molecular Design with Decoupled Annealing Flows",
+    "link": "https://arxiv.org/abs/2607.19519",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19519v1 Announce Type: new \nAbstract: Most 3D properties relevant to molecular design, including free energies and shape descriptors, are $\\textit{expectations}$ over the Boltzmann distribution over 3D configurations of a molecular graph. However, existing property-guided generative models tie each property to a single structure, ignoring the underlying ensemble. We recast 3D molecular design as $\\textbf{Boltzmann-expected design}$ and realise it with $\\textbf{DECAF}$ (Decoupled Annea"
+  },
+  {
+    "baslik": "RELTA-SGLD: Relative-Growth Localized Taming for Nonconvex Stochastic-Gradient Langevin Learning",
+    "link": "https://arxiv.org/abs/2607.19544",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19544v1 Announce Type: new \nAbstract: We introduce RELTA-SGLD, a taming scheme that stabilizes superlinear stochastic-gradient updates while reducing unnecessary suppression of the original learning drift. A threshold determines where the taming turns on, while a relative-growth principle derived from the one-step Lyapunov stability condition determines the required taming strength. Together, they produce a lighter $\\lambda$-scale denominator and preserve a nonvanishing far-tail retur"
+  },
+  {
+    "baslik": "Optimal Recalibration of an Online Predictor",
+    "link": "https://arxiv.org/abs/2607.19689",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19689v1 Announce Type: new \nAbstract: We study the problem of recalibrating an online predictor [KE17, OKS24]: given an arbitrary \"hint\" sequence of forecasts, the learner must output new predictions that are calibrated while incurring small excess error relative to the original forecasts, under a proper loss. We give an online algorithm that achieves $(\\varepsilon, \\varepsilon^2)$-recalibration for Lipschitz proper losses in\n  $T \\approx \\varepsilon^{-3}$ rounds, using an imbalanced "
+  },
+  {
+    "baslik": "Data-Poisoning Audits for Causal Effect Estimation",
+    "link": "https://arxiv.org/abs/2607.19692",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19692v1 Announce Type: new \nAbstract: Observational causal analyses increasingly pool records across sites, vendors, and collection systems, creating vulnerability to append-only attacks in which plausible records are strategically selected to alter a reported treatment effect. We develop a data-poisoning audit for augmented inverse-probability-weighted estimation. The analyst specifies a finite catalog of feasible records, an append budget, and nested source capacities, and the adver"
+  },
+  {
+    "baslik": "Non--negative matrix factorization using the \\textit{R} package \\textsf{nnmf}",
+    "link": "https://arxiv.org/abs/2607.20084",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.20084v1 Announce Type: new \nAbstract: Non--negative matrix factorization (NMF) has become an established dimensionality reduction technique for extracting latent structures from non--negative data and has found widespread applications in fields such as bioinformatics, text mining, image analysis, and recommender systems. As the popularity of NMF has increased, numerous \\textit{R} packages implementing different optimization strategies and computational frameworks have been developed. "
+  },
+  {
+    "baslik": "Directional Kernel Mean Difference: A Fast Signed Statistic for Univariate Distribution Comparison",
+    "link": "https://arxiv.org/abs/2607.20119",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.20119v1 Announce Type: new \nAbstract: We introduce the Directional Kernel Mean Difference (DKMD), a signed statistic for univariate distribution comparison that preserves the direction of distributional shifts. Unlike the squared Maximum Mean Discrepancy (MMD), which discards directional information by squaring the RKHS distance, DKMD integrates the difference of kernel mean embeddings against a fixed odd weighting function. This construction yields three structural properties: antisy"
+  },
+  {
+    "baslik": "Statistical Inference for Rank Allocation in Low-Rank Adaptation",
+    "link": "https://arxiv.org/abs/2607.20205",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.20205v1 Announce Type: new \nAbstract: Low-rank adaptation (LoRA) has become a widely used parameter-efficient fine-tuning method for large language models. Since different modules and layers may contribute unequally to downstream adaptation, allocating rank resources under a fixed parameter budget is an important problem for balancing efficiency, expressiveness, and generalization. Existing adaptive rank methods address this problem mainly through carefully designed importance scores "
+  },
+  {
+    "baslik": "Adaptive Bayesian Online Learning via Expert Aggregation",
+    "link": "https://arxiv.org/abs/2607.20239",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.20239v1 Announce Type: new \nAbstract: Bayesian online learning promises uncertainty-aware prediction on data streams, but its performance hinges on inferential choices, including learning rates, prior distributions and variational families, which are usually fixed before seeing the stream. We address this by treating Bayesian update rules as experts and aggregating the Bayesian experts according to sequential predictive losses. We prove that the resulting aggregate competes with the b"
+  },
+  {
+    "baslik": "Adaptive deep nonparametric regression from dependent data under covariate shift",
+    "link": "https://arxiv.org/abs/2607.20309",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.20309v1 Announce Type: new \nAbstract: Covariate shift often occurs because, in many real applications, the source and the target observations may be generated from different distributions. In this case, the standard metric under the source distribution is not appropriate. This paper considers deep neural network estimators for nonparametric quantile and Huber regression under covariate shift and from dependent observations. We deal with a generalized Bernstein-type inequality that is "
+  },
+  {
+    "baslik": "Simulating Eutopia: Revisiting Long-term Fairness with Outcomes, Performativity, and Dynamics",
+    "link": "https://arxiv.org/abs/2607.19389",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19389v1 Announce Type: cross \nAbstract: As AI-driven Decision Makers (ADMs) influence our socioeconomic reality, their roles in both enhancing efficiency and amplifying the social biases have drawn attention. In this paper, we revisit the nuances of long-term `fairness' achievable by an ADM, specifically in the context of a credit lending induced wealth process. The literature on long-term fairness mostly (a) considers passive environments, i.e. the outcome of a predictor does not cha"
+  },
+  {
+    "baslik": "Strong Gravitational Lensing Posterior Sampling in Pixel-Space Using Diffusion Models and Recurrent Inference Machines",
+    "link": "https://arxiv.org/abs/2607.19459",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19459v1 Announce Type: cross \nAbstract: Modeling galaxy-galaxy strong gravitational lenses to infer the brightness of the source galaxy and the mass distribution of the foreground galaxy is computationally challenging, particularly for high-resolution, high signal-to-noise ratio observations. In this regime, high-dimensional representations of both the source and the foreground mass distribution are necessary to model the data down to the noise level. This inference problem has been c"
+  },
+  {
+    "baslik": "Total Variation Distance Estimation in Autoregressive Models",
+    "link": "https://arxiv.org/abs/2607.19510",
+    "kaynak": "arXiv - Istatistik ML (stat.ML)",
+    "tarih": "2026-07-23",
+    "aciklama": "arXiv:2607.19510v1 Announce Type: cross \nAbstract: Modern LLM deployments use a number of implementation choices and inference optimizations (e.g., batching, custom kernels, and quantization) on top of fixed weights, so two engines serving \"the same model\" can produce meaningfully different distributions. We study the problem of estimating the total variation (TV) distance between two length-$n$ autoregressive distributions to additive error $\\varepsilon$, under three access models. (1) Under sa"
+  },
+  {
+    "baslik": "Lawmakers prepare bill requiring AI ‘kill switch’",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
     "kaynak": "The Verge AI",
-    "tarih": "2026-07-10",
-    "aciklama": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. [&#8230;]"
+    "tarih": "2026-07-23",
+    "aciklama": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security, according to a report from Politico. Reps. Ted Lieu (D-CA) and Nathaniel Moran (R-TX) are expected to introduce the legislation on Thursday. The news of [&#8230;]"
   },
   {
-    "baslik": "Apple sues OpenAI for allegedly stealing hardware secrets",
-    "link": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+    "baslik": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
+    "link": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
     "kaynak": "The Verge AI",
-    "tarih": "2026-07-10",
-    "aciklama": "Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup's hardware plans. In its complaint, Apple says it uncovered \"a pattern of theft of Apple's trade secrets by OpenAI employees who were formerly at Apple.\" In addition to OpenAI, the lawsuit also names IO Products - Jony Ive's hardware startup, [&#8230;]"
+    "tarih": "2026-07-23",
+    "aciklama": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m sure most Decoder listeners are familiar with Apple’s allegations in this case. The company says a number of ex-Apple employees at [&#8230;]"
   },
   {
-    "baslik": "Instagram’s Adam Mosseri: If you don&#8217;t like AI, &#8216;then you shouldn&#8217;t have it in your feed&#8217;",
-    "link": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
+    "baslik": "The right-wing boomers protesting data centers have a lot in common with the left",
+    "link": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
     "kaynak": "The Verge AI",
-    "tarih": "2026-07-10",
-    "aciklama": "Though Instagram head Adam Mosseri doesn't want to filter out AI content on the platform, he argues that you \"shouldn't have it in your feed\" if you don't like it. \"I don't think we should filter out AI content,\" Mosseri said during an interview on Lenny Rachitsky's podcast. \"I think we should let you know [&#8230;]"
+    "tarih": "2026-07-23",
+    "aciklama": "On a gray, humid Saturday morning in central Florida, a little under a dozen people gathered outside the Spring Hill Branch Library to protest the construction of a hyperscale data center in their community. There was no immediate threat - the Hernando County commission had unanimously approved a one-year moratorium on such developments in June [&#8230;]"
   },
   {
-    "baslik": "Would you host part of an AI data center in your home?",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center",
-    "kaynak": "The Verge AI",
-    "tarih": "2026-07-10",
-    "aciklama": "A solar and home energy storage company is expanding into AI data centers, but not by building one - instead, it's offering to pay its customers to put its compute units in their homes. Sunrun is launching a pilot program for a new \"distributed AI compute\" program that will \"place numerous compute nodes in homes [&#8230;]"
-  },
-  {
-    "baslik": "Microsoft’s carbon emissions went up 25 percent last year",
-    "link": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
-    "kaynak": "The Verge AI",
-    "tarih": "2026-07-10",
-    "aciklama": "Microsoft may once again be struggling to keep up with its own climate goals, according to its 2026 sustainability report. As reported by GeekWire, the report states that Microsoft's carbon emissions increased 25 percent in 2025, totalling 34 million metric tons \"without select interventions.\" Microsoft says this was \"driven primarily by the expansion of our [&#8230;]"
-  },
-  {
-    "baslik": "Meta Stock in Focus After $2 Billion AI Deal Falls Apart - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbHJUb1FUYjNuRFN1dGNONHFlZTNsaThjZUt0Sy1VT2RiMnZXZXBJTEp3SF93U2s3Q3lObFR6TU9NOG1kSVdfbkkyVm5RVTZVR1hRUWwxSjdwb2MwRUJkTTJHNHFNWVlzU2s5U0hpMExIelpQVXE5b0hZT1lBeFQ4dXhiTnQxc0xvWnkxN24tRG5kVzVMYS1yXzRNZk5PMllTZ0ppT1FRcHg4YThJX1FwQ3FkZGg?oc=5",
-    "kaynak": "Google News (AI)",
-    "tarih": "2026-07-10",
-    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPbHJUb1FUYjNuRFN1dGNONHFlZTNsaThjZUt0Sy1VT2RiMnZXZXBJTEp3SF93U2s3Q3lObFR6TU9NOG1kSVdfbkkyVm5RVTZVR1hRUWwxSjdwb2MwRUJkTTJHNHFNWVlzU2s5U0hpMExIelpQVXE5b0hZT1lBeFQ4dXhiTnQxc0xvWnkxN24tRG5kVzVMYS1yXzRNZk5PMllTZ0ppT1FRcHg4YThJX1FwQ3FkZGg?oc=5\" target=\"_blank\">Meta Stock in Focus After $2 Billion AI Deal Falls Apart</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>"
-  },
-  {
-    "baslik": "Fidji Simo steps down from OpenAI’s No. 2 role",
-    "link": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
-    "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-09",
-    "aciklama": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected — a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterprise market."
-  },
-  {
-    "baslik": "OpenAI launches its new family of models with GPT-5.6",
-    "link": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-    "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-09",
-    "aciklama": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity."
-  },
-  {
-    "baslik": "An AI agent startup just let its agent run its $100M fundraise",
-    "link": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-    "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-09",
-    "aciklama": "Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works."
-  },
-  {
-    "baslik": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
-    "link": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-    "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-09",
-    "aciklama": "OpenAI is sunsetting its AI-powered browser after less than a year. But it's moving some agentic browsing features to its desktop app and a Chrome extension."
-  },
-  {
-    "baslik": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
-    "link": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
-    "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-09",
-    "aciklama": "Should Anthropic trust Elon Musk to host its models? With about $40 billion in revenue at stake, Musk insists that the company can."
-  },
-  {
-    "baslik": "Can AI answer the $3 trillion question?",
-    "link": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
-    "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-09",
-    "aciklama": "The AI ROI debate has returned and the numbers are even bigger, as are, perhaps, the consequences."
-  },
-  {
-    "baslik": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
-    "link": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-    "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-09",
-    "aciklama": "Meta's pitch to users is Spark's ability to handle large agentic workloads, fix bugs, and help with large code migrations — the kind of automation that enterprises are increasingly turning to AI companies to provide."
-  },
-  {
-    "baslik": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
-    "link": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
-    "kaynak": "TechCrunch AI",
-    "tarih": "2026-07-09",
-    "aciklama": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions."
-  },
-  {
-    "baslik": "Fidji Simo steps down from leading OpenAI’s AGI work due to illness",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
-    "kaynak": "The Verge AI",
-    "tarih": "2026-07-09",
-    "aciklama": "OpenAI's Fidji Simo is departing her full-time role as the company's AGI chief and is transitioning to being a \"part-time advisor,\" she said on X. The news follows Simo's original announcement in April that she would take a few weeks of medical leave due to a neuroimmune condition, shortly after she had taken on the [&#8230;]"
-  },
-  {
-    "baslik": "The ChatGPT browser is already dead",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
-    "kaynak": "The Verge AI",
-    "tarih": "2026-07-09",
-    "aciklama": "OpenAI is already shutting down ChatGPT Atlas, its browser that could do tasks for you on your behalf, less than a year after launching it. Atlas was announced in October, but as part of its wave of news about ChatGPT Work today, the company confirmed that it will be \"sunsetting\" Atlas and is targeting an [&#8230;]"
-  },
-  {
-    "baslik": "Google will now tell you if an ad was made with AI",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
-    "kaynak": "The Verge AI",
-    "tarih": "2026-07-09",
-    "aciklama": "You can see if ads on Google Search, Google Discover, and YouTube were made or edited using AI from a new section in Google's \"My Ad Center,\" as reported earlier by TechCrunch. The update, announced on Thursday, adds a \"created or edited with AI\" label under the \"how this ad was made\" tab. Users can [&#8230;]"
-  },
-  {
-    "baslik": "Microsoft’s patch Tuesdays are about to get bigger",
-    "link": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
-    "kaynak": "The Verge AI",
-    "tarih": "2026-07-09",
-    "aciklama": "Windows 11 updates could soon include fixes for more security issues at once. Microsoft said in a blog post on Thursday that it's now using AI to \"identify potential issues earlier,\" which means \"customers will see a higher volume of security updates included in each security release.\" Hackers, even amateurs, have increasingly been using AI [&#8230;]"
-  },
-  {
-    "baslik": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-    "kaynak": "The Verge AI",
-    "tarih": "2026-07-09",
-    "aciklama": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump administration's greenlight for a public rollout of the model. OpenAI CEO Sam Altman called it \"the best model we have ever produced.\" To celebrate, [&#8230;]"
-  },
-  {
-    "baslik": "Anthropic found a hidden space where Claude puzzles over concepts",
-    "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+    "baslik": "How AI helps scientists design the next generation of medicines",
+    "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
     "kaynak": "MIT Technology Review (AI)",
-    "tarih": "2026-07-09",
-    "aciklama": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the Jacobian lens (or&#8230;"
+    "tarih": "2026-07-23",
+    "aciklama": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered proteins rather than synthetic chemistry (which are often used to&#8230;"
   },
   {
-    "baslik": "The century-old device quietly choking the world’s AI ambitions - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ3pubHZ2WFFJRkNNaHFrX1RJUWp5NUlTVE5jMU9vSTJ3TGxoeHJrOU9Td1A4ajhkZU1Tc3I2a3Bnd3VvX3drakNHcDBMN2F5eUhxQ0Q4MUxNdEFqVjBzY1RscllOSlVzWHFOZnA0RTRqZU9scVFDWnk2ZUxUbXppQVBvemI1OEhDbDF1am90OFEzeXlHVEVERkZfT0NrOFJWMkVXZlR4RUlQQ092Ry15eDVFWXZHcUlVTGRkQWdFWERPdjRlQ3c?oc=5",
+    "baslik": "K25.ai Değerini 200 Milyon Dolar’a Çiftledi - Unite.AI",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdmNncnJfMGx1LXRsZFBXd3BhRkFYbVFzZ00tSy1XWkdpdVdqNDRmeWRSdU4wUUM5SmtNMzlrbThRS25vVlpqSFBtOTlaRTJRZTVNVWJqeDMyUGhaQm5kTVUyNXdvQXlhUUxIX3cxOXo2UG40eEFpWHFQVnFQb0JDdWN3bER2eXRDSUE?oc=5",
     "kaynak": "Google News (AI)",
-    "tarih": "2026-07-09",
-    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ3pubHZ2WFFJRkNNaHFrX1RJUWp5NUlTVE5jMU9vSTJ3TGxoeHJrOU9Td1A4ajhkZU1Tc3I2a3Bnd3VvX3drakNHcDBMN2F5eUhxQ0Q4MUxNdEFqVjBzY1RscllOSlVzWHFOZnA0RTRqZU9scVFDWnk2ZUxUbXppQVBvemI1OEhDbDF1am90OFEzeXlHVEVERkZfT0NrOFJWMkVXZlR4RUlQQ092Ry15eDVFWXZHcUlVTGRkQWdFWERPdjRlQ3c?oc=5\" target=\"_blank\">The century-old device quietly choking the world’s AI ambitions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>"
+    "tarih": "2026-07-23",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPdmNncnJfMGx1LXRsZFBXd3BhRkFYbVFzZ00tSy1XWkdpdVdqNDRmeWRSdU4wUUM5SmtNMzlrbThRS25vVlpqSFBtOTlaRTJRZTVNVWJqeDMyUGhaQm5kTVUyNXdvQXlhUUxIX3cxOXo2UG40eEFpWHFQVnFQb0JDdWN3bER2eXRDSUE?oc=5\" target=\"_blank\">K25.ai Değerini 200 Milyon Dolar’a Çiftledi</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unite.AI</font>"
   },
   {
-    "baslik": "Alibaba, çalışanlarına Claude Code’u sildirdi - NuvemMag",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pN1lTR3lKRWpaX1dWa0lCeTZLRW9BOVBrbGVFOEZzSTdaNy1keEl5X2ZrTnZpdElzejFEOUxuX3ctZV9ySlA0dUFDYlFaeHBydFVCcFVYQ2xFSGVUT1RtMW4wVXhKWWdfMU9MUjFhc1VvQjQ?oc=5",
+    "baslik": "University of Lisbon to invest €20m in AI and science data centres - Portugal Resident",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONi1HWmVJNVNsdHZJbHdiSC1RQjBrbjZRUS1zMUdsdHhza3ZIal9jYXF0eXpVNWwwbnZoakc5bVdYUWhlRzhnZS05d25laXlCekdjUXFJTmY0cXlHTm9EQWNGb1IwTjlUb29PMld3ZHVSZGRlZW1BQUxHQUZDcTJDWGNZaVFkUVRTQVhqWGt0ODl2RVBBR3dBamMxajlNODIzQnJaWkFR?oc=5",
     "kaynak": "Google News (AI)",
-    "tarih": "2026-07-09",
-    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5pN1lTR3lKRWpaX1dWa0lCeTZLRW9BOVBrbGVFOEZzSTdaNy1keEl5X2ZrTnZpdElzejFEOUxuX3ctZV9ySlA0dUFDYlFaeHBydFVCcFVYQ2xFSGVUT1RtMW4wVXhKWWdfMU9MUjFhc1VvQjQ?oc=5\" target=\"_blank\">Alibaba, çalışanlarına Claude Code’u sildirdi</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NuvemMag</font>"
+    "tarih": "2026-07-23",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxONi1HWmVJNVNsdHZJbHdiSC1RQjBrbjZRUS1zMUdsdHhza3ZIal9jYXF0eXpVNWwwbnZoakc5bVdYUWhlRzhnZS05d25laXlCekdjUXFJTmY0cXlHTm9EQWNGb1IwTjlUb29PMld3ZHVSZGRlZW1BQUxHQUZDcTJDWGNZaVFkUVRTQVhqWGt0ODl2RVBBR3dBamMxajlNODIzQnJaWkFR?oc=5\" target=\"_blank\">University of Lisbon to invest €20m in AI and science data centres</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Portugal Resident</font>"
   },
   {
-    "baslik": "SK Hynix ve CXMT'nin halka arz patlaması, sermayeyi kriptodan çekebilir - CoinDesk",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWnpwSi1sc3FIV291dWRKUjBuN0phR2tsSkZLclphV3ItS2FyNkVZWTdiWjN5ZGZQN2JHclpaNDNYUF9PY0plRkVqblhrSjVGYXBwM3VuR1czS2VfVmdIcmRGbDVzYjZ0RkZzZ0xDNkpoQ2QxN2ZFVWVvWFd3LWRMcnZnbjJCQlptdUpJd1hYOGVJbG9hc3FUUHpHclFjdjlDQ09vZHlFempZNlZMSFloMFBGRHFJNkpyRlh0ag?oc=5",
+    "baslik": "ÇOMÜ'nün yapay zeka projesine 250 bin avro hibe - Çanakkale Olay",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd0VUOF9ZOFJ0TlVreE1ZTndJaXREc3pEM0FJajM1YlQzTzIxZEdmRll6azRMNXlpeTdVc2hUM0xJWjcxb3k3SWlTSHg0a21jbmo2cW9FM3pvSDQzckVuUGRxdEdFYzEwcGIwRkRVQ3ZVTFRVVzFGbGlQMVd4cTJ4VE02a1hPNTdzMG9FcXpjNDdiUW5X?oc=5",
     "kaynak": "Google News (AI)",
-    "tarih": "2026-07-09",
-    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPWnpwSi1sc3FIV291dWRKUjBuN0phR2tsSkZLclphV3ItS2FyNkVZWTdiWjN5ZGZQN2JHclpaNDNYUF9PY0plRkVqblhrSjVGYXBwM3VuR1czS2VfVmdIcmRGbDVzYjZ0RkZzZ0xDNkpoQ2QxN2ZFVWVvWFd3LWRMcnZnbjJCQlptdUpJd1hYOGVJbG9hc3FUUHpHclFjdjlDQ09vZHlFempZNlZMSFloMFBGRHFJNkpyRlh0ag?oc=5\" target=\"_blank\">SK Hynix ve CXMT'nin halka arz patlaması, sermayeyi kriptodan çekebilir</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>"
+    "tarih": "2026-07-23",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNd0VUOF9ZOFJ0TlVreE1ZTndJaXREc3pEM0FJajM1YlQzTzIxZEdmRll6azRMNXlpeTdVc2hUM0xJWjcxb3k3SWlTSHg0a21jbmo2cW9FM3pvSDQzckVuUGRxdEdFYzEwcGIwRkRVQ3ZVTFRVVzFGbGlQMVd4cTJ4VE02a1hPNTdzMG9FcXpjNDdiUW5X?oc=5\" target=\"_blank\">ÇOMÜ'nün yapay zeka projesine 250 bin avro hibe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Çanakkale Olay</font>"
   },
   {
-    "baslik": "Meta Drops $9 Billion on AI Expansion With Massive Canada Data Center - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQekRZVE5LWkxFYXRQQzNyN0tsai01Zmx0R0JEcTk2ekdOMWJqZnRxTFdMNjU4bWo4M3l1U01iT2hTQTBDaENzbHE4M3dsYXJlOEhNbmFqdkpWMmRib3d5R1p5b2wtWGFiZFhpcTExMEdRbjFGcEZwMWlJNUVfZHdKMkczSjhkS0o5Y0Vxcllsc1QxV2JNZHJGQ2lfX3Y4ZEtHS0NFcTBKZ0tSdS0yTDQxblJ3d01QRDhadXlKYzdwZ2VvLXRPbnc?oc=5",
+    "baslik": "Francisco Partners 21 Milyar Dolar Topladı: Yazılım Endüstrisini AI’ın Öldürmeyeceğine Bahse Girdi - Unite.AI",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS1JIejE1TnN6bE1NZHJITUpremNnYU5EajA3WTFGdU8xelhiS0xPREpCLWFLaDcyTE56LVdzWjYtV3A1em01VmpoZWQ4TlFhb2ZJRm5SbGUwYWRNc1NCUElaMndYdzR2R1dIQmVZSlFRM2FMUHhYN0VyTWV0VklKb2JCSm0zdXRndm5ETw?oc=5",
     "kaynak": "Google News (AI)",
-    "tarih": "2026-07-09",
-    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQekRZVE5LWkxFYXRQQzNyN0tsai01Zmx0R0JEcTk2ekdOMWJqZnRxTFdMNjU4bWo4M3l1U01iT2hTQTBDaENzbHE4M3dsYXJlOEhNbmFqdkpWMmRib3d5R1p5b2wtWGFiZFhpcTExMEdRbjFGcEZwMWlJNUVfZHdKMkczSjhkS0o5Y0Vxcllsc1QxV2JNZHJGQ2lfX3Y4ZEtHS0NFcTBKZ0tSdS0yTDQxblJ3d01QRDhadXlKYzdwZ2VvLXRPbnc?oc=5\" target=\"_blank\">Meta Drops $9 Billion on AI Expansion With Massive Canada Data Center</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>"
+    "tarih": "2026-07-23",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNS1JIejE1TnN6bE1NZHJITUpremNnYU5EajA3WTFGdU8xelhiS0xPREpCLWFLaDcyTE56LVdzWjYtV3A1em01VmpoZWQ4TlFhb2ZJRm5SbGUwYWRNc1NCUElaMndYdzR2R1dIQmVZSlFRM2FMUHhYN0VyTWV0VklKb2JCSm0zdXRndm5ETw?oc=5\" target=\"_blank\">Francisco Partners 21 Milyar Dolar Topladı: Yazılım Endüstrisini AI’ın Öldürmeyeceğine Bahse Girdi</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unite.AI</font>"
   },
   {
-    "baslik": "Data for Agents",
-    "link": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-    "kaynak": "Hugging Face Blog",
-    "tarih": "2026-07-08",
-    "aciklama": ""
-  },
-  {
-    "baslik": "Native-speed vLLM transformers modeling backend",
-    "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-    "kaynak": "Hugging Face Blog",
-    "tarih": "2026-07-08",
-    "aciklama": ""
-  },
-  {
-    "baslik": "AI Monitörü 2026 - Ipsos",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zODlHSjQ4aFdhVloxWjNmTVhqc0xfMlNkTnMxU0ZMRk9RWjhBYXc5RlFqNDZNZUw2Zm1xeVpucmRPbXdhS3pabU0zeXBvTlo0VUN5TGEyOA?oc=5",
+    "baslik": "Acrab’ın Edge Chip’i 100 Milyar AI Modelini Yerel Olarak Çalıştırmayı Hedefliyor - Unite.AI",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcHVjNkpkV3BxUm91VFNXbUNyemxSa1AzSDlRYXNXQ0hnTkFiZkJsWXM1Vkg2b1BrV1k1YzgzVDFQSTdubHBzSDdLTUM0M3NGVlJEVlZIdlA2UzdUYmdTcHY4NGlERkdTUTVyWTJMa0ltSXhTR2VBYUV4ZlBTc0pPOVlB?oc=5",
     "kaynak": "Google News (AI)",
-    "tarih": "2026-07-08",
-    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zODlHSjQ4aFdhVloxWjNmTVhqc0xfMlNkTnMxU0ZMRk9RWjhBYXc5RlFqNDZNZUw2Zm1xeVpucmRPbXdhS3pabU0zeXBvTlo0VUN5TGEyOA?oc=5\" target=\"_blank\">AI Monitörü 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ipsos</font>"
+    "tarih": "2026-07-23",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQcHVjNkpkV3BxUm91VFNXbUNyemxSa1AzSDlRYXNXQ0hnTkFiZkJsWXM1Vkg2b1BrV1k1YzgzVDFQSTdubHBzSDdLTUM0M3NGVlJEVlZIdlA2UzdUYmdTcHY4NGlERkdTUTVyWTJMa0ltSXhTR2VBYUV4ZlBTc0pPOVlB?oc=5\" target=\"_blank\">Acrab’ın Edge Chip’i 100 Milyar AI Modelini Yerel Olarak Çalıştırmayı Hedefliyor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unite.AI</font>"
   },
   {
-    "baslik": "AI.SU'nun Yeni Bölümünde Yapay Zekâ Çağında Yaratıcılık ve Özgünlük Tartışıldı - Marmara Yaşam",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWlkxVTJidHAwTmN3LUd3YnNoSFBndGJjZ1JFTnM5ak85MWFvMktkclktcEdyaHJwcWFteGtxd1FOMDZEV0psbm80enlNUWZhUTNSaDJPZ3FUeWhiLWNORmpPaVBaMnJqUGp6aXJmaGpsZlNkelJOWDcxSjBwclA3SGR0cDh0TmxJcUYyM21fWm80X2F5VndrYkQyOUxtVnVwZmExZXNRMWljY0piQllhM2tRTUtURzR0LWI3YWh3?oc=5",
-    "kaynak": "Google News (AI)",
-    "tarih": "2026-07-08",
-    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPWlkxVTJidHAwTmN3LUd3YnNoSFBndGJjZ1JFTnM5ak85MWFvMktkclktcEdyaHJwcWFteGtxd1FOMDZEV0psbm80enlNUWZhUTNSaDJPZ3FUeWhiLWNORmpPaVBaMnJqUGp6aXJmaGpsZlNkelJOWDcxSjBwclA3SGR0cDh0TmxJcUYyM21fWm80X2F5VndrYkQyOUxtVnVwZmExZXNRMWljY0piQllhM2tRTUtURzR0LWI3YWh3?oc=5\" target=\"_blank\">AI.SU'nun Yeni Bölümünde Yapay Zekâ Çağında Yaratıcılık ve Özgünlük Tartışıldı</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Marmara Yaşam</font>"
-  },
-  {
-    "baslik": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
-    "link": "https://github.com/rowboatlabs/rowboat",
-    "kaynak": "Hacker News",
-    "tarih": "2026-07-07",
-    "aciklama": "HN puani: 217"
-  },
-  {
-    "baslik": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+    "baslik": "3 Google updates from Galaxy Unpacked 2026",
+    "link": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
     "kaynak": "Google AI Blog",
-    "tarih": "2026-07-07",
-    "aciklama": "Managed agents feature bundle launch"
+    "tarih": "2026-07-22",
+    "aciklama": "Gentle Monster glasses, Warby Parker glasses, a prompt asking for the history behind a pictured building, and a prompt asking to book a table at a pictured restaurant"
   },
   {
-    "baslik": "From Hugging Face to Amazon SageMaker Studio in one click",
-    "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+    "baslik": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
+    "link": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-22",
+    "aciklama": "After IBM's stock crashed last week on warnings of poor mainframe sales, the CEO explained that AI wrecked corporate hardware budget, temporarily."
+  },
+  {
+    "baslik": "Google justifies its massive AI spending with a booming cloud business",
+    "link": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-22",
+    "aciklama": "Google's cloud business is thriving, as companies adopting its AI and AI infrastructure services help the tech giant to report record profits."
+  },
+  {
+    "baslik": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
+    "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-22",
+    "aciklama": "The episode has also intensified a broader debate in Washington over the influx of Chinese open models."
+  },
+  {
+    "baslik": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+    "link": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-22",
+    "aciklama": "OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on Hugging Face possible."
+  },
+  {
+    "baslik": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
+    "link": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-22",
+    "aciklama": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world."
+  },
+  {
+    "baslik": "Yope raises $12.3M to build a private social network without algorithms or ads",
+    "link": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-22",
+    "aciklama": "Yope, a fast-growing social app focused on private groups of friends and family, has raised $12.3 million in seed funding. Instead of chasing creators and algorithmic feeds, the startup is betting that the future of social networking lies in small, private communities powered by messaging, photo sharing, and AI features designed to strengthen real-world relationships."
+  },
+  {
+    "baslik": "Monday.com lays off hundreds to focus on AI",
+    "link": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-22",
+    "aciklama": "The company said it is reducing its headcount by 20%, or about 630 staff, to \"support a leaner, more focused operating model\" as it focuses on its AI Work Platform."
+  },
+  {
+    "baslik": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
+    "link": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-22",
+    "aciklama": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch."
+  },
+  {
+    "baslik": "Substack’s new tool tells you who’s been writing their newsletters with AI",
+    "link": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-22",
+    "aciklama": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content."
+  },
+  {
+    "baslik": "OpenAI’s AI spending spree has ballooned to $750B",
+    "link": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
+    "kaynak": "TechCrunch AI",
+    "tarih": "2026-07-22",
+    "aciklama": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030."
+  },
+  {
+    "baslik": "Here&#8217;s what Samsung&#8217;s smart glasses actually look like",
+    "link": "https://www.theverge.com/tech/969382/samsung-google-smart-glasses-gentle-monster-warby-parker",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-22",
+    "aciklama": "Samsung has given us our first chance to check out its upcoming smart glasses in person, revealing two new designs and the first specs in the process, including an impressive 9-hour battery life. The glasses, developed in collaboration with Google and the eyewear brands Gentle Monster and Warby Parker, are due to launch this fall. [&#8230;]"
+  },
+  {
+    "baslik": "AMD commits up to $5 billion to  Anthropic",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-22",
+    "aciklama": "AMD says it's going to invest up to $5 billion in Anthropic, while helping to expand the AI company's computing power, according to an announcement on Wednesday. As part of the new partnership, Anthropic will deploy up to 2 gigawatts of AMD's Instinct MI450 AI GPUs using the chipmaker's new Helios rack-scale system, as reported [&#8230;]"
+  },
+  {
+    "baslik": "Meta made its own AI detection system. It should have just used Google’s",
+    "link": "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-22",
+    "aciklama": "IIn March, Meta's Oversight Board called on the company to \"meet its public commitments and employ its own tools\" to help quell the spread of deceptive generative AI content across platforms. Meta responded in July by introducing Content Seal - an invisible watermarking technology that flags images generated by the company's new AI model. But [&#8230;]"
+  },
+  {
+    "baslik": "Utility companies promise to spare us from AI’s energy bill",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-22",
+    "aciklama": "In the face of backlash to concerns the AI boom will increase consumer electricity bills, the largest utility companies and data center developers in the US are now promising to do something about it. The Wall Street Journal reports that nearly 200 organizations have signed President Donald Trump's \"rate payer protection pledge\" that's meant to [&#8230;]"
+  },
+  {
+    "baslik": "Oklo stock jumps after Microsoft, Nvidia join $200M nuclear AI initiative - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOGpRcHBXWDdGdTQ3UjJZYkNhMnl6dy1yUFNzanMzX29wdGhBUVBSZzJwU0pIOHBnWmRNNkl5UnkweDVZbmRZNTNncTNFeWxhSjNLWXVKV2U2WkpiVFVQdXEteVJWYm9rdkpVd0VDdUdaeVZRY0pnUkRXWHJfNzRHZ094NHRnRldXMmRma0ZqNExHQ0dtT2dMaUpDRG5QeThVRHFySHN4ODU4YWJqRmNyalo1QkprZ2dMVmVWSmVhUFRKeG4zcUQyTnRB?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-22",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNOGpRcHBXWDdGdTQ3UjJZYkNhMnl6dy1yUFNzanMzX29wdGhBUVBSZzJwU0pIOHBnWmRNNkl5UnkweDVZbmRZNTNncTNFeWxhSjNLWXVKV2U2WkpiVFVQdXEteVJWYm9rdkpVd0VDdUdaeVZRY0pnUkRXWHJfNzRHZ094NHRnRldXMmRma0ZqNExHQ0dtT2dMaUpDRG5QeThVRHFySHN4ODU4YWJqRmNyalo1QkprZ2dMVmVWSmVhUFRKeG4zcUQyTnRB?oc=5\" target=\"_blank\">Oklo stock jumps after Microsoft, Nvidia join $200M nuclear AI initiative</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>"
+  },
+  {
+    "baslik": "Nvidia’yı unutun: Bir sonraki büyük yapay zeka hamlesi kripto ve blok zinciri olabilir - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeUpoMUpVZ1ZoMVlmYU5Bdi1US19lVzg1RlM4eHVDVDRBQ0hidXZuOVhMdXQzWGw2TlR1LVZrb2ZncnFyT3A5c2IzLUJsVl9DV0lrSEFwejBXMjhYbzAzRXRUQ0JyRkszRXpqLTdUb1E2QkQyc0tNNVlnSkdDMll0aVJ4OTg4UEdQY1oxV3I3dWlSX2pPRlo4T3U2TVRiNkRCdF9RdHN0MzZvNFltUDhaU3ZaMA?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-22",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNeUpoMUpVZ1ZoMVlmYU5Bdi1US19lVzg1RlM4eHVDVDRBQ0hidXZuOVhMdXQzWGw2TlR1LVZrb2ZncnFyT3A5c2IzLUJsVl9DV0lrSEFwejBXMjhYbzAzRXRUQ0JyRkszRXpqLTdUb1E2QkQyc0tNNVlnSkdDMll0aVJ4OTg4UEdQY1oxV3I3dWlSX2pPRlo4T3U2TVRiNkRCdF9RdHN0MzZvNFltUDhaU3ZaMA?oc=5\" target=\"_blank\">Nvidia’yı unutun: Bir sonraki büyük yapay zeka hamlesi kripto ve blok zinciri olabilir</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>"
+  },
+  {
+    "baslik": "Özyeğin Üniversitesi OZU Racing AI Team takımı Otonom Tasarım Etabı'nda üçüncülük elde etti - Ogretmenler.Net",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUlU0M1pBWEh1MHlxVTA5LXZHb3R5THNXYTVDTUREQVZvT3lsNEpaSzB5ZXdwWUlVZU93b0ZNY2N4OUNyelJxUFpLMXB2NXNjc2NOVEtDTUVYMHp0Q3VhbnR2WkJmTjRFVUN2RzFtVGg1MGh4Q0IwbllSdUJiVHNiZlhBOHd2X0VaWHdjakFRc1ZaUmJwTTV1RnYzYW1oVldpVE9jeV9EYnJYS0QxUWg4d0RFMkRwMTlDZTR5UEpLRQ?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-22",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOUlU0M1pBWEh1MHlxVTA5LXZHb3R5THNXYTVDTUREQVZvT3lsNEpaSzB5ZXdwWUlVZU93b0ZNY2N4OUNyelJxUFpLMXB2NXNjc2NOVEtDTUVYMHp0Q3VhbnR2WkJmTjRFVUN2RzFtVGg1MGh4Q0IwbllSdUJiVHNiZlhBOHd2X0VaWHdjakFRc1ZaUmJwTTV1RnYzYW1oVldpVE9jeV9EYnJYS0QxUWg4d0RFMkRwMTlDZTR5UEpLRQ?oc=5\" target=\"_blank\">Özyeğin Üniversitesi OZU Racing AI Team takımı Otonom Tasarım Etabı'nda üçüncülük elde etti</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ogretmenler.Net</font>"
+  },
+  {
+    "baslik": "Alphabet Earnings Put Big Tech AI Spending Under Scrutiny - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUy1aM1FIMUlsSGl4Z1VjYkVZRjQ0aG92cXBveGJHMm5sdWpZNy1qa3VsZW12cWpVWHZpQ1FPZENnd1VHZXN5eHFINjN4cklGR0pSblctRHR5TnVYY3Z2TnJyWHBCX2RvaDVuVnVNX2NRSzFOeEItRVRJOWF0TjhJY1NpX2J6WW5PWVlRbGUweHBPQS14VWlfdUFKWjctUWRvWERwV0ZJWjZHQVk0dlNybXFfdkJpTVU?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-22",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNUy1aM1FIMUlsSGl4Z1VjYkVZRjQ0aG92cXBveGJHMm5sdWpZNy1qa3VsZW12cWpVWHZpQ1FPZENnd1VHZXN5eHFINjN4cklGR0pSblctRHR5TnVYY3Z2TnJyWHBCX2RvaDVuVnVNX2NRSzFOeEItRVRJOWF0TjhJY1NpX2J6WW5PWVlRbGUweHBPQS14VWlfdUFKWjctUWRvWERwV0ZJWjZHQVk0dlNybXFfdkJpTVU?oc=5\" target=\"_blank\">Alphabet Earnings Put Big Tech AI Spending Under Scrutiny</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>"
+  },
+  {
+    "baslik": "Yapay zeka modelleri OpenAI’nin güvenli ortamından çıktı ve Hugging Face’i etkiledi. Kripto, burada risklerin arttığı alan - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUlhoVnM1LV93Mm93NF93WHNzbVk0czM0b1g2SG83dmJTUGVTQzhKWktLZk54WUloV2wtS2JsdGhNZ3g5Mm51eDkxTGQ0MUpnbllod2R1OFI0WWdaN3VSUFdVM0N6RTdoS1pPbVNVbldXOUQybW9UMmNrOGh5X1V2S0Q4MzI1UndILW1wNkdaZHNFOFp0SFZZR1hpUGxpX2NtYUViNjZ1NHk4Z3ZBd0RQaFVvYzVaRl8zX1R5bDVKU0s5YkE3RUxNakJ3R1VqZUlCdUpLVA?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-22",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUlhoVnM1LV93Mm93NF93WHNzbVk0czM0b1g2SG83dmJTUGVTQzhKWktLZk54WUloV2wtS2JsdGhNZ3g5Mm51eDkxTGQ0MUpnbllod2R1OFI0WWdaN3VSUFdVM0N6RTdoS1pPbVNVbldXOUQybW9UMmNrOGh5X1V2S0Q4MzI1UndILW1wNkdaZHNFOFp0SFZZR1hpUGxpX2NtYUViNjZ1NHk4Z3ZBd0RQaFVvYzVaRl8zX1R5bDVKU0s5YkE3RUxNakJ3R1VqZUlCdUpLVA?oc=5\" target=\"_blank\">Yapay zeka modelleri OpenAI’nin güvenli ortamından çıktı ve Hugging Face’i etkiledi. Kripto, burada risklerin arttığı alan</a>&nbsp;&nbsp;<fo"
+  },
+  {
+    "baslik": "Sağlık sektörü CEO'ları 2026 yılına kısıtlı kaynaklarla sistemi düzeltme hedefiyle giriyor. Yapay zeka teknolojileri sağlık alanında somut ve olumlu sonuçlar vermeye başlıyor. Klinik çalışanları haftada ortalama sekiz hasta görmeyi sürdürüyor. Yüzlerce saatlik id - instagram.com",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zVGFXNVp5TWE3UmFSSDloTlh3aWhjaTBIOERYdEs1ZTNGRnhKZ0NXaHM0bDV1MTYzR1pJd0VoMFlyZFNMMHhPdmowSUxzRkU3VHc?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-22",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zVGFXNVp5TWE3UmFSSDloTlh3aWhjaTBIOERYdEs1ZTNGRnhKZ0NXaHM0bDV1MTYzR1pJd0VoMFlyZFNMMHhPdmowSUxzRkU3VHc?oc=5\" target=\"_blank\">Sağlık sektörü CEO'ları 2026 yılına kısıtlı kaynaklarla sistemi düzeltme hedefiyle giriyor. Yapay zeka teknolojileri sağlık alanında somut ve olumlu sonuçlar vermeye başlıyor. Klinik çalışanları haftada ortalama sekiz hasta görmeyi sürdürüyor. Yüzlerce saatlik id</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">instagram.com</"
+  },
+  {
+    "baslik": "AMD Stock Gains After Committing Up To $5B To Anthropic In AI Partnership - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLWYxRkdPUWt4a3pITEEtczBXNlFwMkZUMEoza2ZfMW93RE9EX3ozM2Y0UnZwMy1kQ25EMUNhOFNJWFFiOXBveW5DeVItUjN4QnJyaU0yV0xQNkFkNllJRzVabXRwU2dUUVZ5Q3JSLUlBVVpYTnFPXzgwenVHVkl6OGJCY2R6UjM2d0hqRmRMX2dpTVlLR0NMVktjQ3g2YkY0bVNjMWZSalhSMGpXaUJZcnMwY0dvQks2ZUhmSkFHWTREckZJNmh1Vm9iYXY?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-22",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOLWYxRkdPUWt4a3pITEEtczBXNlFwMkZUMEoza2ZfMW93RE9EX3ozM2Y0UnZwMy1kQ25EMUNhOFNJWFFiOXBveW5DeVItUjN4QnJyaU0yV0xQNkFkNllJRzVabXRwU2dUUVZ5Q3JSLUlBVVpYTnFPXzgwenVHVkl6OGJCY2R6UjM2d0hqRmRMX2dpTVlLR0NMVktjQ3g2YkY0bVNjMWZSalhSMGpXaUJZcnMwY0dvQks2ZUhmSkFHWTREckZJNmh1Vm9iYXY?oc=5\" target=\"_blank\">AMD Stock Gains After Committing Up To $5B To Anthropic In AI Partnership</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>"
+  },
+  {
+    "baslik": "The State of Simulation for Physical AI: An Overview",
+    "link": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
     "kaynak": "Hugging Face Blog",
-    "tarih": "2026-07-07",
+    "tarih": "2026-07-21",
     "aciklama": ""
   },
   {
-    "baslik": "Hugging Face Models on Foundry Managed Compute",
-    "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+    "baslik": "Grabette: an open system to record robot-manipulation data",
+    "link": "https://huggingface.co/blog/grabette",
     "kaynak": "Hugging Face Blog",
-    "tarih": "2026-07-07",
+    "tarih": "2026-07-21",
     "aciklama": ""
   },
   {
-    "baslik": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-    "link": "https://huggingface.co/blog/skypilot-hf-storage",
-    "kaynak": "Hugging Face Blog",
-    "tarih": "2026-07-07",
-    "aciklama": ""
+    "baslik": "Neill Blomkamp’s new zombie AI ‘film’ is just slop warmed over",
+    "link": "https://www.theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-21",
+    "aciklama": "On Monday, District 9 and Gran Turismo director Neill Blomkamp unveiled his latest project: a 13-minute sci-fi short titled Nightborne that's loosely based on Peter Watts' 2014 novel Echopraxia. The short comes from Blomkamp's new AI startup / production company, Barley Studios, and features characters whose voices and faces are modeled after human actors. But [&#8230;]"
   },
   {
-    "baslik": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-    "link": "https://huggingface.co/blog/lerobot-release-v060",
-    "kaynak": "Hugging Face Blog",
-    "tarih": "2026-07-07",
-    "aciklama": ""
+    "baslik": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-21",
+    "aciklama": "OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulnerabilities within their sandboxed testing environment, allowing them to gain access to the internet and target Hugging Face. On July 16th, [&#8230;]"
   },
   {
-    "baslik": "The foundational elements of AI architecture that IT leaders need to scale",
-    "link": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+    "baslik": "Substack adds an AI detector to help spot blogs written by no one",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/968855/substack-pangram-ai-detecting-tool",
+    "kaynak": "The Verge AI",
+    "tarih": "2026-07-21",
+    "aciklama": "Substack will now help users determine whether what they're reading may have been written by AI. A new tool coming to the platform can scan posts, notes, replies, and comments to provide an estimate of how much text could be AI-generated or written with AI assistance, according to a blog post published on Tuesday. The [&#8230;]"
+  },
+  {
+    "baslik": "Advancing next-gen AI with materials science innovation",
+    "link": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
     "kaynak": "MIT Technology Review (AI)",
-    "tarih": "2026-07-07",
-    "aciklama": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the future. Returning to the foundational elements of AI architecture—the&#8230;"
+    "tarih": "2026-07-21",
+    "aciklama": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advanced materials. Every new generation of AI technology demands more processing power, more memory, greater energy efficiency, and&#8230;"
   },
   {
-    "baslik": "2008 krizini bilen ünlü yatırımcıdan AI balonu için kritik uyarı: \"Sona yaklaştık!\" - DonanımHaber",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaVNVYmdVaWEwOVdQYk1XQzFKN3RDZ0NtdmhXc1RJZnVOdkt2N0h1cFJjU19rN1ltYUVfS2ZTTm9GN1BySzh1TmVnM0sxOFhXYjRSOEVUMzk2VEVxR0g0ZldKeVp4V3JDcTRBZDRNUFBaNjBrQnhZa09OeGRKR3BEaG93MkJrZFphbF9EVzF5cDR5NV9kSGpNVHYxQ0UxWVB4dmhj0gGoAUFVX3lxTE1vT0ZuMVlUQXZ4dV9aQWRVbnRVdjVab25fNFFRam5BQkJ6QURmb3ZleW5IQlB6cllhZUhjU3ZieGticWE3SU93UmdOY0NOcTh1NE5UdWs4ZUpKVUc0ZHlnZFZMTWUwLW4wYkgzaG1TbUtUZW9oNFF6Z0tLYjZmYU52WVBYbWJwYlkwVjU3TGpORVMyV1BERThDZlAyOFlHS3BTMmJoV0p4SQ?oc=5",
+    "baslik": "AMD stock jumps 4%: is Microsoft’s AI deal just the opening act? - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRzZvY2FqaVpURnhWdTNTYVhNVFBkMGJUd3NIWmNldGRuYndUNFQ0dTRrdU96S21aSU1xdjJWM202aXdQWEZuUzQzTTYySW9vQXNFdjFDUjhZbkF6cEsxZkY2TF9iOUtORHNqTjBaLXJKaE5uRTZ1MnZyS1RkeVZJSlc2RjYxM1JCdkxoa2FKaFpWUE9fNWRvTUZpczMyQnFpckcwZGhGU0Z2cmNfODFaMWxzZ2xKOEVV?oc=5",
     "kaynak": "Google News (AI)",
-    "tarih": "2026-07-07",
-    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOaVNVYmdVaWEwOVdQYk1XQzFKN3RDZ0NtdmhXc1RJZnVOdkt2N0h1cFJjU19rN1ltYUVfS2ZTTm9GN1BySzh1TmVnM0sxOFhXYjRSOEVUMzk2VEVxR0g0ZldKeVp4V3JDcTRBZDRNUFBaNjBrQnhZa09OeGRKR3BEaG93MkJrZFphbF9EVzF5cDR5NV9kSGpNVHYxQ0UxWVB4dmhj0gGoAUFVX3lxTE1vT0ZuMVlUQXZ4dV9aQWRVbnRVdjVab25fNFFRam5BQkJ6QURmb3ZleW5IQlB6cllhZUhjU3ZieGticWE3SU93UmdOY0NOcTh1NE5UdWs4ZUpKVUc0ZHlnZFZMTWUwLW4wYkgzaG1TbUtUZW9oNFF6Z0tLYjZmYU52WVBYbWJwYlkwVjU3TGpORVMyV1BERThDZlAyOFlHS3BTMmJoV0p4SQ"
+    "tarih": "2026-07-21",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRzZvY2FqaVpURnhWdTNTYVhNVFBkMGJUd3NIWmNldGRuYndUNFQ0dTRrdU96S21aSU1xdjJWM202aXdQWEZuUzQzTTYySW9vQXNFdjFDUjhZbkF6cEsxZkY2TF9iOUtORHNqTjBaLXJKaE5uRTZ1MnZyS1RkeVZJSlc2RjYxM1JCdkxoa2FKaFpWUE9fNWRvTUZpczMyQnFpckcwZGhGU0Z2cmNfODFaMWxzZ2xKOEVV?oc=5\" target=\"_blank\">AMD stock jumps 4%: is Microsoft’s AI deal just the opening act?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>"
   },
   {
-    "baslik": "Microsoft CEO’su Satya Nadella şirketin yapay zeka stratejisinden o kadar endişeli ki, geçen ekim ayında bazı ticari görevlerini bırakarak yapay zeka araştırmasına, ürün inovasyonuna ve yapay zeka veri merkezlerinin inşasına odaklanacağını duyuruyor. Ticar - instagram.com",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE02a1RJNG41cENzTUVXWnNYbktCRE8zamdUcFc4WkJDcUlPcmZ6Rl9rSjlmYW9wNWVzSmdOa0dMbHF3d3dSRXFibFNPckhZbkItaUE?oc=5",
-    "kaynak": "Google News (AI)",
-    "tarih": "2026-07-07",
-    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE02a1RJNG41cENzTUVXWnNYbktCRE8zamdUcFc4WkJDcUlPcmZ6Rl9rSjlmYW9wNWVzSmdOa0dMbHF3d3dSRXFibFNPckhZbkItaUE?oc=5\" target=\"_blank\">Microsoft CEO’su Satya Nadella şirketin yapay zeka stratejisinden o kadar endişeli ki, geçen ekim ayında bazı ticari görevlerini bırakarak yapay zeka araştırmasına, ürün inovasyonuna ve yapay zeka veri merkezlerinin inşasına odaklanacağını duyuruyor. Ticar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">instagram.com</font>"
+    "baslik": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
+    "link": "https://news.ycombinator.com/item?id=48981136",
+    "kaynak": "Hacker News",
+    "tarih": "2026-07-20",
+    "aciklama": "HN puani: 100"
   },
   {
-    "baslik": "PRX Part 4: Our Data Strategy",
-    "link": "https://huggingface.co/blog/Photoroom/prx-part4-data",
-    "kaynak": "Hugging Face Blog",
-    "tarih": "2026-07-06",
-    "aciklama": ""
-  },
-  {
-    "baslik": "🤗 Kernels: Major Updates",
-    "link": "https://huggingface.co/blog/revamped-kernels",
-    "kaynak": "Hugging Face Blog",
-    "tarih": "2026-07-06",
-    "aciklama": ""
-  },
-  {
-    "baslik": "Your family’s $300 stake in OpenAI",
-    "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+    "baslik": "China’s AI models have Trump’s AI world at war with itself",
+    "link": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
     "kaynak": "MIT Technology Review (AI)",
-    "tarih": "2026-07-06",
-    "aciklama": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times reported that Altman is in&#8230;"
+    "tarih": "2026-07-20",
+    "aciklama": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David Sacks, the president’s AI and crypto “czar” until&#8230;"
   },
   {
-    "baslik": "Coinbase AI uyarısı, Dünya Kupası sonucu maç başlamadan önce duyurulduğu için tepkilere yol açtı - CoinDesk",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb3pBSWlxbTB0dXFuRTJYamlwb0RhOW9kcmhtUGQxaTlTR1VESF96MnQzcTBRcUpPOUVJOURhX2xZTklUN3VXTWNrSkk1akZxZ3VLT0dTZHBpS1FMeUtjY09zX2FxOUZFTHh2TkFXNnlrU2NVbTlHWVpmbFZrdHAwT2FjNGZucHEyR21NMEFVRWhNcWpZV2dycHVicjZ5RjlxcnFJRjB0V0ZtMzZTM0N6M1Q3ZlFQSlpLX1pwdg?oc=5",
+    "baslik": "AI is more likely than humans to form biases when hiring",
+    "link": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+    "kaynak": "MIT Technology Review (AI)",
+    "tarih": "2026-07-20",
+    "aciklama": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from&#8230;"
+  },
+  {
+    "baslik": "Artificial Intelligence and the Entrepreneurship Ecosystem Discussed at the Economics Summer Seminars - PAU HABER",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaHR5YlFsSzJVYm5saUlUWl9zbzA4bmM2elM0UWtKNjZHUmNuV21fQ01ldEd1WVNJeEtQUEUzQTFMdF9xazZvR3NEaFJ3X0xxTmMyT19EanBFcWd4U1JMdmxkTkdnNjZJZFh1ZlVpUG5DZlhWMl8tNHY3bE5FdjRjWFdjSC1MSUVqa0xwYW40QXB6U1JyTDh1YzJJaXdXOVpzVTZNWWRXMjZtR0FHYk81dU5SR0pPX1o1Zlk2X2w4eVFSa1FGTHZhak00RGE?oc=5",
     "kaynak": "Google News (AI)",
-    "tarih": "2026-07-06",
-    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNb3pBSWlxbTB0dXFuRTJYamlwb0RhOW9kcmhtUGQxaTlTR1VESF96MnQzcTBRcUpPOUVJOURhX2xZTklUN3VXTWNrSkk1akZxZ3VLT0dTZHBpS1FMeUtjY09zX2FxOUZFTHh2TkFXNnlrU2NVbTlHWVpmbFZrdHAwT2FjNGZucHEyR21NMEFVRWhNcWpZV2dycHVicjZ5RjlxcnFJRjB0V0ZtMzZTM0N6M1Q3ZlFQSlpLX1pwdg?oc=5\" target=\"_blank\">Coinbase AI uyarısı, Dünya Kupası sonucu maç başlamadan önce duyurulduğu için tepkilere yol açtı</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>"
+    "tarih": "2026-07-20",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPaHR5YlFsSzJVYm5saUlUWl9zbzA4bmM2elM0UWtKNjZHUmNuV21fQ01ldEd1WVNJeEtQUEUzQTFMdF9xazZvR3NEaFJ3X0xxTmMyT19EanBFcWd4U1JMdmxkTkdnNjZJZFh1ZlVpUG5DZlhWMl8tNHY3bE5FdjRjWFdjSC1MSUVqa0xwYW40QXB6U1JyTDh1YzJJaXdXOVpzVTZNWWRXMjZtR0FHYk81dU5SR0pPX1o1Zlk2X2w4eVFSa1FGTHZhak00RGE?oc=5\" target=\"_blank\">Artificial Intelligence and the Entrepreneurship Ecosystem Discussed at the Economics Summer Seminars</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PAU HABER</fo"
+  },
+  {
+    "baslik": "Çinli startup Moonshot AI, ABD’li rakipleri OpenAI ve Anthropic’in bazı önemli becerileriyle aradaki farkı kapatabilen yeni bir model ortaya koydu. 🔗 https://www.fortuneturkey.com/cinli-startuptan-openai-anthropice-rakip-model - instagram.com",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03VjBtRXM2TkJSc2k3Vkk3SHVIV294d3lFeHRzSkxlZ1liVndZTXozMGxnMk41VWhDUklsR3d5QVozODJnYTh6VC1YbkpxaE81eFE?oc=5",
+    "kaynak": "Google News (AI)",
+    "tarih": "2026-07-20",
+    "aciklama": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE03VjBtRXM2TkJSc2k3Vkk3SHVIV294d3lFeHRzSkxlZ1liVndZTXozMGxnMk41VWhDUklsR3d5QVozODJnYTh6VC1YbkpxaE81eFE?oc=5\" target=\"_blank\">Çinli startup Moonshot AI, ABD’li rakipleri OpenAI ve Anthropic’in bazı önemli becerileriyle aradaki farkı kapatabilen yeni bir model ortaya koydu. 🔗 https://www.fortuneturkey.com/cinli-startuptan-openai-anthropice-rakip-model</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">instagram.com</font>"
+  },
+  {
+    "baslik": "The risk of weather data sabotage is rising",
+    "link": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+    "kaynak": "MIT Technology Review (AI)",
+    "tarih": "2026-07-17",
+    "aciklama": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions influence major strategic decisions in many industries, with real money, livelihoods, and even actual lives at stake. Farmers use&#8230;"
   }
 ]

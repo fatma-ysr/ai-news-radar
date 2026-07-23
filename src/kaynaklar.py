@@ -175,7 +175,7 @@ def hacker_news_tara(en_eski_tarih):
     print(f"{len(haberler)} haber bulundu.")
     return haberler
 
-def main():
+def haberleri_topla():
     print("=" * 60)
     print("AI/ML HABER RADARI - Veri Toplama Basliyor")
     print("=" * 60)
@@ -204,7 +204,8 @@ def main():
         print(f"  [{h['tarih']}] {h['kaynak']}")
         print(f"    {h['baslik']}")
         print(f"    {h['link']}\n")
+        return tum_haberler
 
 
 if __name__ == "__main__":
-    main()
+    haberleri_topla()

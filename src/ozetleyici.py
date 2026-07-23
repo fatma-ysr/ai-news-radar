@@ -53,69 +53,49 @@ FIELD RULES:
 - Fields ending with "_en": the same content in ENGLISH.
 """
 
-with open("haberler.json", "r", encoding="utf-8") as f:
-    haberler = json.load(f)
+def ozetle(haberler):
+    # Haber listesini Claude'a gonderir, JSON rapor dondurur.
+    # Basarisiz olursa None doner.
+    haber_metni = ""
+    for i, haber in enumerate(haberler, start=1):
+        aciklama = haber["aciklama"][:200]
+        haber_metni += f"[{i}] {haber['baslik']}\n"
+        haber_metni += f"Kaynak: {haber['kaynak']}, Tarih: {haber['tarih']}\n"
+        haber_metni += f"Ozet: {aciklama}\n\n"
 
-print("Yuklenen haber sayisi:", len(haberler))
-print(haberler[0])
+    load_dotenv()
+    api_key = os.getenv("ANTHROPIC_API_KEY")
+    if not api_key:
+        print("HATA: API anahtari bulunamadi! .env dosyasini kontrol et.")
+        return None
 
-haber_metni = ""
-for i, haber in enumerate(haberler, start=1):
-    aciklama = haber["aciklama"][:200]  # ilk 200 karakter yeterli
-    haber_metni += f"[{i}] {haber['baslik']}\n"
-    haber_metni += f"Kaynak: {haber['kaynak']}, Tarih: {haber['tarih']}\n"
-    haber_metni += f"Ozet: {aciklama}\n\n"
+    client = Anthropic(api_key=api_key)
+    print("Claude'a gonderiliyor, bekle... (30-60 saniye surebilir)")
 
-print("Toplam karakter:", len(haber_metni))
-print(haber_metni[:500])  # kontrol icin ilk 500 karakter
+    message = client.messages.create(
+        model="claude-sonnet-4-5",
+        max_tokens=8000,
+        system=SISTEM_PROMPTU,
+        messages=[
+            {"role": "user", "content": haber_metni}
+        ]
+    )
 
-load_dotenv()
-api_key = os.getenv("ANTHROPIC_API_KEY")
-if not api_key:
-    print("HATA: API anahtari bulunamadi! .env dosyasini kontrol et.")
-    exit()
+    cevap = message.content[0].text
 
-print("Anahtar bulundu, ilk 10 karakter:", api_key[:10] + "...")
-client = Anthropic(api_key=api_key)
+    if message.stop_reason == "max_tokens":
+        print("UYARI: Cevap token limitine takildi, JSON kesik olabilir!")
 
+    temiz = cevap.strip()
+    if temiz.startswith("```"):
+        temiz = temiz.split("\n", 1)[1]
+        temiz = temiz.rsplit("```", 1)[0]
 
-print("Claude'a gonderiliyor, bekle... (30-60 saniye surebilir)")
+    try:
+        rapor = json.loads(temiz)
+    except json.JSONDecodeError as e:
+        print("JSON decode hatasi:", e)
+        return None
 
-message = client.messages.create(
-    model="claude-sonnet-4-5",
-    max_tokens=8000,
-    system=SISTEM_PROMPTU,
-    messages=[
-        {"role": "user", "content": haber_metni}
-    ]
-)
-
-cevap = message.content[0].text
-
-if message.stop_reason == "max_tokens":
-    print("UYARI: Cevap token limitine takildi, JSON kesik olabilir!")
-
-print("--- CEVABIN ILK 1000 KARAKTERI ---")
-print(cevap[:1000])
-print("--- CEVABIN SON 300 KARAKTERI ---")
-print(cevap[-300:])
-
-temiz = cevap.strip()
-if temiz.startswith("```"):
-    temiz = temiz.split("\n", 1)[1]
-    temiz = temiz.rsplit("```", 1)[0]
-
-try:
-    rapor = json.loads(temiz)
-except json.JSONDecodeError as e:
-    print("JSON decode hatasi:", e)
-    print("Claude cevabi:")
-    print(temiz)
-    exit()
-
-print("JSON gecerli! Secilen haber sayisi:", len(rapor["haberler"]))
-print()
-for h in rapor["haberler"]:
-    orijinal = haberler[h["kaynak_no"] - 1]
-    print(f"{h['sira']}. (puan {h['onem_puani']}) {orijinal['baslik'][:70]}")
-    print(f"   Kaynak: {orijinal['kaynak']}")
+    print("JSON gecerli! Secilen haber sayisi:", len(rapor["haberler"]))
+    return rapor
